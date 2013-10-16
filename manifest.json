@@ -1,0 +1,16 @@
+{
+    "version": 1,
+    "platformVersion": 1,
+    "changeLog": [
+        {
+            "version": 1,
+            "changes": [
+                "Updated Luna Next stack",
+                "Added Tweaks application",
+                "Implemenented noWindow support for WebAppMgr",
+                "Added several mobile optimized websites as application (GMail, YouTube, ...)",
+                "Added possiblity to permanently install webOS on a device"
+            ]
+        }
+    ]
+}
