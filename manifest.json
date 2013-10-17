@@ -1,9 +1,17 @@
 {
     "version": 1,
-    "platformVersion": 1,
+    "platformVersion": 3,
     "changeLog": [
         {
             "version": 1,
+            "changes": []
+        },
+        {
+            "version": 2,
+            "changes": []
+        },
+        {
+            "version": 3,
             "changes": [
                 "Updated Luna Next stack",
                 "Added Tweaks application",
