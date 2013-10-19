@@ -23,8 +23,8 @@
         {
             "version": 4,
             "changes": [
-                "Switch to OE release 1.5 dora"
-                "Fix for nodejs"
+                "Switch to OE release 1.5 dora",
+                "Fix for nodejs",
                 "Fix for logging without password"
             ]
         }
