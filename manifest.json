@@ -19,6 +19,14 @@
                 "Added several mobile optimized websites as application (GMail, YouTube, ...)",
                 "Added possiblity to permanently install webOS on a device"
             ]
+        },
+        {
+            "version": 4,
+            "changes": [
+                "Switch to OE release 1.5 dora"
+                "Fix for nodejs"
+                "Fix for logging without password"
+            ]
         }
     ]
 }
