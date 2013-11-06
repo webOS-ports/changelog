@@ -34,6 +34,16 @@
                 "Battery status indicator",
                 "Application manager can now launch native applications (try snowshoe in the launcher)"
             ]
+        },
+        {
+            "version": 6,
+            "changes": [
+                "Use new QML based browser application instead of snowshoe",
+                "Further work to get audio through pulseaudio/alsa working",
+                "WiFi is working again",
+                "Updated settings application with visual changes for the WiFi panel",
+                "Several updates for the Luna Next UI stack"
+            ]
         }
     ]
 }
