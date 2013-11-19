@@ -44,6 +44,15 @@
                 "Updated settings application with visual changes for the WiFi panel",
                 "Several updates for the Luna Next UI stack"
             ]
+        },
+        {
+            "version": 7,
+            "changes": [
+                "No window decoration anymore for native qt applications",
+                "Virtual keyboard based on the Ubuntu Touch variant of the Maliit keyboard",
+                "Core applications are only using webos-lib instead of webos-ports-lib and webos-lib",
+                "Updates to the Luna Next UI stack to fix bugs and improve performance"
+            ]
         }
     ]
 }
