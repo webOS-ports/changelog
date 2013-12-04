@@ -1,5 +1,5 @@
 {
-    "version": 1,
+    "manifestVersion": 2,
     "platformVersion": 6,
     "changeLog": [
         { "version": 1, "changes": [] },
