@@ -53,6 +53,13 @@
                 "Core applications are only using webos-lib instead of webos-ports-lib and webos-lib",
                 "Updates to the Luna Next UI stack to fix bugs and improve performance"
             ]
+        },
+        {
+            "version": 8,
+            "changes": [
+                "Rebased on new layers (meta-webos, meta-oe, oe-core)",
+                "Complete rebuild of the whole distribution caused by the rebase"
+            ]
         }
     ]
 }
