@@ -61,5 +61,14 @@
                 "Complete rebuild of the whole distribution caused by the rebase"
             ]
         }
+        {
+            "version": 9,
+            "changes": [
+                "Rebased on new layers (meta-webos)",
+		"Unified names of build artifacts",
+		"Connman upgraded to 1.20",
+                "qtwebkit no longer depends on MACHINE_ARCH luna-service2",
+            ]
+        }
     ]
 }
