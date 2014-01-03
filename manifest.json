@@ -67,7 +67,7 @@
                 "Rebased on new layers (meta-webos)",
 		"Unified names of build artifacts",
 		"Connman upgraded to 1.20",
-                "qtwebkit no longer depends on MACHINE_ARCH luna-service2",
+                "qtwebkit no longer depends on MACHINE_ARCH luna-service2"
             ]
         }
     ]
