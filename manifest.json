@@ -60,7 +60,7 @@
                 "Rebased on new layers (meta-webos, meta-oe, oe-core)",
                 "Complete rebuild of the whole distribution caused by the rebase"
             ]
-        }
+        },
         {
             "version": 9,
             "changes": [
