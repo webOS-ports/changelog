@@ -74,7 +74,11 @@
             "version": 10,
             "changes": [
                 "Signature fixes to share more components between maguro and grouper builds (TUNE_PKGARCH).",
-                "..."
+                "Reworked WiFi part of the system settings application",
+                "Extended support for remote web applications",
+                "Fixed callback issues with PalmServiceBridge implementation",
+                "preware doesn't try to download feeds when no internet connection is available",
+                "Several improvements for the system update service"
             ]
         }
     ]
