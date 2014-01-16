@@ -80,6 +80,16 @@
                 "preware doesn't try to download feeds when no internet connection is available",
                 "Several improvements for the system update service"
             ]
+        },
+        {
+            "version": 11,
+            "changes": [
+                "luna-service2 is now machine independent which enables us to share a lot more packages between different machines",
+                "System update functionality is now implemented and will enable you to update the system through the UI",
+                "Suspend is working again (still has minor issues but those will be fixed soon)",
+                "Relaunching applications is now possible",
+                "Several meta data cleanups"
+            ]
         }
     ]
 }
