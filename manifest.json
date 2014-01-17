@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 10,
+    "platformVersion": 12,
     "changeLog": [
         { "version": 1, "changes": [] },
         { "version": 2, "changes": [] },
@@ -89,6 +89,13 @@
                 "Suspend is working again (still has minor issues but those will be fixed soon)",
                 "Relaunching applications is now possible",
                 "Several meta data cleanups"
+            ]
+        },
+        {
+            "version": 12,
+            "changes": [
+                "Updates for preware, memo and pdf applications",
+                "Kernel is now automatically updated"
             ]
         }
     ]
