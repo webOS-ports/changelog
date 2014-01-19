@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 12,
+    "platformVersion": 13,
     "changeLog": [
         { "version": 1, "changes": [] },
         { "version": 2, "changes": [] },
@@ -96,6 +96,14 @@
             "changes": [
                 "Updates for preware, memo and pdf applications",
                 "Kernel is now automatically updated"
+            ]
+        },
+        {
+            "version": 13,
+            "changes": [
+                "Rebuilt from scratch",
+                "Updates for apps",
+		"Recipe cleanup"
             ]
         }
     ]
