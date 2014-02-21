@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 13,
+    "platformVersion": 14,
     "changeLog": [
         { "version": 1, "changes": [] },
         { "version": 2, "changes": [] },
@@ -103,7 +103,18 @@
             "changes": [
                 "Rebuilt from scratch",
                 "Updates for apps",
-		"Recipe cleanup"
+                "Recipe cleanup"
+            ]
+        },
+        {
+            "version": 14,
+            "changes": [
+                "Dev mode implementation",
+                "SDL2 support",
+                "More gstreamer plugins added for better multimedia support",
+                "Finally enabling SWAP space on target device (not emulator)",
+                "Various bug fixes for application and cardshell",
+                "Use correct default wallpaper selected in contest again"
             ]
         }
     ]
