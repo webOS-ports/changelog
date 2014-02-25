@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 14,
+    "platformVersion": 15,
     "changeLog": [
         { "version": 1, "changes": [] },
         { "version": 2, "changes": [] },
@@ -115,6 +115,15 @@
                 "Finally enabling SWAP space on target device (not emulator)",
                 "Various bug fixes for application and cardshell",
                 "Use correct default wallpaper selected in contest again"
+            ]
+        },
+        {
+            "version": 15,
+            "changes": [
+                "Qt 5.2.1 update",
+                "Small update for meta OE layers from upstream",
+                "luna-sysservice changes from upstream",
+                "fix for that libhybris/qtwayland patch issue"
             ]
         }
     ]
