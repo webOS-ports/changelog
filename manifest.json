@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 15,
+    "platformVersion": 16,
     "changeLog": [
         { "version": 1, "changes": [] },
         { "version": 2, "changes": [] },
@@ -124,6 +124,17 @@
                 "Small update for meta OE layers from upstream",
                 "luna-sysservice changes from upstream",
                 "fix for that libhybris/qtwayland patch issue"
+            ]
+        },
+        {
+            "version": 16,
+            "changes": [
+                "Various improvements for proper suspend handling",
+                "Application menu support added to Luna Next Cardshell",
+                "Improvements for keyboard to support more languages (spell checking and predictive text) and fix a lot of bugs",
+                "Fixed telephony service to not constantly segfault",
+                "Bug fixes and UI improvements for cdav synergy connector",
+                "First feedback sound implementation in new audio service component"
             ]
         }
     ]
