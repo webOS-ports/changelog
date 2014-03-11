@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 16,
+    "platformVersion": 17,
     "changeLog": [
         { "version": 1, "changes": [] },
         { "version": 2, "changes": [] },
@@ -135,6 +135,12 @@
                 "Fixed telephony service to not constantly segfault",
                 "Bug fixes and UI improvements for cdav synergy connector",
                 "First feedback sound implementation in new audio service component"
+            ]
+        },
+        {
+            "version": 17,
+            "changes": [
+                "Small update from upstream layers",
             ]
         }
     ]
