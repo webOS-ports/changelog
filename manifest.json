@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 17,
+    "platformVersion": 18,
     "changeLog": [
         { "version": 1, "changes": [] },
         { "version": 2, "changes": [] },
@@ -141,6 +141,14 @@
             "version": 17,
             "changes": [
                 "Small update from upstream layers"
+            ]
+        },
+        {
+            "version": 18,
+            "changes": [
+                "Fixed icons for pdf and email apps",
+                "Web applications are now resized when keyboard is visible",
+                "Fixed problems with system update scripts to post installation steps to next boot"
             ]
         }
     ]
