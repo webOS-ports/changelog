@@ -150,6 +150,17 @@
                 "Web applications are now resized when keyboard is visible",
                 "Fixed problems with system update scripts to post installation steps to next boot"
             ]
+        },
+        {
+            "version": 19,
+            "changes": [
+                "Reimplementation of the keymanager service",
+                "New media indexer service to warrant compatibility with legacy webOS",
+                "Correctly set the application id as application name for luna service calls",
+                "Support more media format (mp3, ...) within gstreamer",
+                "Hardware keyboard control is now working again within the emulator",
+                "Various core app UI improvements to look better on our target devices"
+            ]
         }
     ]
 }
