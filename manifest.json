@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 18,
+    "platformVersion": 20,
     "changeLog": [
         { "version": 1, "changes": [] },
         { "version": 2, "changes": [] },
@@ -160,6 +160,16 @@
                 "Support more media format (mp3, ...) within gstreamer",
                 "Hardware keyboard control is now working again within the emulator",
                 "Various core app UI improvements to look better on our target devices"
+            ]
+        },
+        {
+            "version": 20,
+            "changes": [
+                "First tweak support within Luna Next Cardshell",
+                "Various UI layout improvements",
+                "Media playback (not hardware accelerated) is working now",
+                "Improved swipe gestures for the Cardshell",
+                "Various bug fixes"
             ]
         }
     ]
