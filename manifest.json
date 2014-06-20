@@ -171,6 +171,12 @@
                 "Improved swipe gestures for the Cardshell",
                 "Various bug fixes"
             ]
+        },
+        {
+            "version": 21,
+            "changes": [
+                "Various bug fixes and application updates"
+            ]
         }
     ]
 }
