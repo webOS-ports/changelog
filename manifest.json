@@ -177,6 +177,16 @@
             "changes": [
                 "Various bug fixes and application updates"
             ]
+        },
+        {
+            "version": 22,
+            "changes": [
+                "Major suspend handling rework. Not finished yet and device doesn't reliable sleep yet. Will be finished with the next stage",
+                "C+Dav synergy connector update",
+                "Account service now uses the keymanager for storing credentials again",
+                "Rebased on latest upstream meta-webos which brings various components and security updates (such as for openssl)",
+                "Various component upgrades and bug fixes"
+            ]
         }
     ]
 }
