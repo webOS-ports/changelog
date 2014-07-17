@@ -187,6 +187,13 @@
                 "Rebased on latest upstream meta-webos which brings various components and security updates (such as for openssl)",
                 "Various component upgrades and bug fixes"
             ]
+        },
+        {
+            "version": 23,
+            "changes": [
+                "Updates for various system apps",
+                "Initial dashboard support in card shell"
+            ]
         }
     ]
 }
