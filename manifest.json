@@ -192,12 +192,7 @@
             "version": 23,
             "changes": [
                 "Updates for various system apps",
-                "Initial dashboard support in card shell"
-            ]
-        },
-        {
-            "version": 24,
-            "changes": [
+                "Initial dashboard support in card shell",
                 "Rewritten contacts application",
                 "Working google contact/calendar sync",
                 "Reworked suspend/resume handing",
