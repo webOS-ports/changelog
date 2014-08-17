@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 20,
+    "platformVersion": 23,
     "changeLog": [
         { "version": 1, "changes": [] },
         { "version": 2, "changes": [] },
