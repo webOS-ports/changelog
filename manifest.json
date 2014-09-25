@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 24,
+    "platformVersion": 25,
     "changeLog": [
         { "version": 1, "changes": [] },
         { "version": 2, "changes": [] },
@@ -224,6 +224,17 @@
                 "Various bugs fixed and other improvements to the system",
                 "(Nexus 4) WiFi connection are remember accross a reboot now",
                 "(Touchpad) Allow to install LuneOS on a LVM partition named luneos-root"
+            ]
+        },
+        {
+            "version": 25,
+            "unsupported_devices": [ "maguro", "grouper" ],
+            "changes": [
+                "Rebuild of stage 25 because build agent for stable didn't really updated to what it should build from",
+                "Fixed boot-loop introduced with 24",
+                "Fixed login issues with c+dav and yahoo",
+                "Added missing icon for DuckDuckGo search provider and improved support for search suggestions",
+                "Fixed pulseaudio startup on emulator"
             ]
         }
     ]
