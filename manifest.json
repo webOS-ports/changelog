@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 23,
+    "platformVersion": 24,
     "changeLog": [
         { "version": 1, "changes": [] },
         { "version": 2, "changes": [] },
@@ -197,6 +197,33 @@
                 "Working google contact/calendar sync",
                 "Reworked suspend/resume handing",
                 "Various bug fixes"
+            ]
+        },
+        {
+            "version": 24,
+            "unsupported_devices": [ "maguro", "grouper" ],
+            "changes": [
+                "Switch from OpenEmbedded dora to daisy release as baseline",
+                "Using a central Web application manager component instead of a single launcher",
+                "New browser application developed from scratch in the tradition of the old legacy browser",
+                "Introduction of the new messaging application (no backend integration yet)",
+                "Fixed not working reboot/shutdown",
+                "Improved card stack support (still disabled by default; needs to be enabled via tweaks application)",
+                "App icon reordering for the quick launchbar which is synchronized into db8 for persistence",
+                "Reworked notification API",
+                "Universal search manager now uses https URLs by default for all default search providers",
+                "Media indexer now generates thumbnails for indexed images",
+                "Wallpaper chooser in the settings application now uses the FilePicker component (accesses the media index)",
+                "All logging is now going through the journald system service. /var/log is not used anymore",
+                "Various bug fixes and improvements for the C+DAV synergy connector",
+                "Preware now improved settings and app menu",
+                "Installing updates when running a testing or unstable build is not possible anymore",
+                "Playing audio will not break the audio subsystem anymore",
+                "UTC+0 is now the default timezone of the system if user doesn't set another one",
+                "Developer mode is now correctly handled and available through the Just type application by entering the konami code from legacy webOS",
+                "Various bugs fixed and other improvements to the system",
+                "(Nexus 4) WiFi connection are remember accross a reboot now",
+                "(Touchpad) Allow to install LuneOS on a LVM partition named luneos-root"
             ]
         }
     ]
