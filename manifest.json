@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 25,
+    "platformVersion": 26,
     "changeLog": [
         { "version": 1, "changes": [] },
         { "version": 2, "changes": [] },
@@ -235,6 +235,16 @@
                 "Fixed login issues with c+dav and yahoo",
                 "Added missing icon for DuckDuckGo search provider and improved support for search suggestions",
                 "Fixed pulseaudio startup on emulator"
+            ]
+        },
+        {
+            "version": 26,
+            "unsupported_devices": [ "maguro", "grouper" ],
+            "changes": [
+                "Fixed wrong display contact phone numbers in contacts application",
+                "Enabled verbose logging for the WebAppManager by default",
+                "Use correct property of album db8 kind to store it's path",
+                "Be backwards compatible after we've switched the name of the rootfs directory"
             ]
         }
     ]
