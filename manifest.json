@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 26,
+    "platformVersion": 27,
     "changeLog": [
         { "version": 1, "changes": [] },
         { "version": 2, "changes": [] },
@@ -245,6 +245,22 @@
                 "Enabled verbose logging for the WebAppManager by default",
                 "Use correct property of album db8 kind to store it's path",
                 "Be backwards compatible after we've switched the name of the rootfs directory"
+            ]
+        },
+        {
+            "version": 27,
+            "unsupported_devices": ["maguro", "grouper"],
+            "changes": [
+                "First version of the new QML based first use application",
+                "PIN/password support for the lockscreen",
+                "Various bug fixes and improvements for the browser",
+                "Memory caches for apps are now cleared when a new version gets installed",
+                "Performance overlay support for the compositor which can be enabled from settings app",
+                "Various bug fixes and improvements for cdav synergy service",
+                "Quota of 5MB for databases of web applications",
+                "Support for 64bit emulator",
+                "Bug fixes for preware",
+                "Enabled verbose logging for WebAppManager by default"
             ]
         }
     ]
