@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 27,
+    "platformVersion": 28,
     "changeLog": [
         { "version": 1, "changes": [] },
         { "version": 2, "changes": [] },
@@ -261,6 +261,16 @@
                 "Support for 64bit emulator",
                 "Bug fixes for preware",
                 "Enabled verbose logging for WebAppManager by default"
+            ]
+        },
+        {
+            "version": 28,
+            "unsupported_devices": ["maguro", "grouper"],
+            "changes": [
+                "Back gesture is working again",
+                "Various fixes for the first use application",
+                "Virtual keyboard is now usable in first use",
+                "Fixed non-ASCII characters being mangled in Enyo 1 apps"
             ]
         }
     ]
