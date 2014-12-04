@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 28,
+    "platformVersion": 30,
     "changeLog": [
         { "version": 1, "changes": [] },
         { "version": 2, "changes": [] },
@@ -287,6 +287,14 @@
                 "TP 4G supported now",
                 "PDF App: Using media indexer now",
                 "Browser: Now saves icons for bookmarks and launcher shortcut"
+            ]
+        },
+        {
+            "version": 30,
+            "unsupported_devices": ["maguro", "grouper"],
+            "changes": [
+                "Added high resolution graphics for app menu",
+                "Fixed button width bug in First Use application"
             ]
         }
     ]
