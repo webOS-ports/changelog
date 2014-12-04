@@ -272,6 +272,22 @@
                 "Virtual keyboard is now usable in first use",
                 "Fixed non-ASCII characters being mangled in Enyo 1 apps"
             ]
+        },
+        {
+            "version": 29,
+            "unsupported_devices": ["maguro", "grouper"],
+            "changes": [
+                "Upgraded Yocto to Dizzy release",
+                "Upgrade to beta release of qt 5.4",
+                "Upgraded QtWebKit",
+                "Mobile data connectivity is working again for N4 and TP4G with Ericsson f5521GW and Sierra MC77x0 (no UI implementation yet)",
+                "System menu is back",
+                "Various UI and app changes",
+                "Various fixes for the first use application and Language/Region selection added",
+                "TP 4G supported now",
+                "PDF App: Using media indexer now",
+                "Browser: Now saves icons for bookmarks and launcher shortcut"
+            ]
         }
     ]
 }
