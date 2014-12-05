@@ -291,6 +291,7 @@
         },
         {
             "version": 30,
+            "release_name": "Black Eye",
             "unsupported_devices": ["maguro", "grouper"],
             "changes": [
                 "Added high resolution graphics for app menu",
