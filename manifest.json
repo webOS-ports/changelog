@@ -2,10 +2,11 @@
     "manifestVersion": 2,
     "platformVersion": 30,
     "changeLog": [
-        { "version": 1, "changes": [] },
-        { "version": 2, "changes": [] },
+        { "version": 1, "release_name": "", "changes": [] },
+        { "version": 2, "release_name": "", "changes": [] },
         {
             "version": 3,
+            "release_name": "",
             "changes": [
                 "Updated Luna Next stack",
                 "Added Tweaks application",
@@ -16,6 +17,7 @@
         },
         {
             "version": 4,
+            "release_name": "",
             "changes": [
                 "Switch to OE release 1.5 dora",
                 "Fix for nodejs",
@@ -24,6 +26,7 @@
         },
         {
             "version": 5,
+            "release_name": "",
             "changes": [
                 "Using maliit as input method",
                 "Using ofono with rilmodem support from cross project (Ubuntu, Mer, webOS ports) effort",
@@ -37,6 +40,7 @@
         },
         {
             "version": 6,
+            "release_name": "",
             "changes": [
                 "Use new QML based browser application instead of snowshoe",
                 "Further work to get audio through pulseaudio/alsa working",
@@ -47,6 +51,7 @@
         },
         {
             "version": 7,
+            "release_name": "",
             "changes": [
                 "No window decoration anymore for native qt applications",
                 "Virtual keyboard based on the Ubuntu Touch variant of the Maliit keyboard",
@@ -56,6 +61,7 @@
         },
         {
             "version": 8,
+            "release_name": "",
             "changes": [
                 "Rebased on new layers (meta-webos, meta-oe, oe-core)",
                 "Complete rebuild of the whole distribution caused by the rebase"
@@ -63,6 +69,7 @@
         },
         {
             "version": 9,
+            "release_name": "",
             "changes": [
                 "Rebased on new layers (meta-webos)",
                 "Unified names of build artifacts",
@@ -72,6 +79,7 @@
         },
         {
             "version": 10,
+            "release_name": "",
             "changes": [
                 "Signature fixes to share more components between maguro and grouper builds (TUNE_PKGARCH).",
                 "Reworked WiFi part of the system settings application",
@@ -83,6 +91,7 @@
         },
         {
             "version": 11,
+            "release_name": "",
             "changes": [
                 "luna-service2 is now machine independent which enables us to share a lot more packages between different machines",
                 "System update functionality is now implemented and will enable you to update the system through the UI",
@@ -93,6 +102,7 @@
         },
         {
             "version": 12,
+            "release_name": "",
             "changes": [
                 "Updates for preware, memo and pdf applications",
                 "Kernel is now automatically updated"
@@ -100,6 +110,7 @@
         },
         {
             "version": 13,
+            "release_name": "",
             "changes": [
                 "Rebuilt from scratch",
                 "Updates for apps",
@@ -108,6 +119,7 @@
         },
         {
             "version": 14,
+            "release_name": "",
             "changes": [
                 "Dev mode implementation",
                 "SDL2 support",
@@ -119,6 +131,7 @@
         },
         {
             "version": 15,
+            "release_name": "",
             "changes": [
                 "Qt 5.2.1 update",
                 "Small update for meta OE layers from upstream",
@@ -128,6 +141,7 @@
         },
         {
             "version": 16,
+            "release_name": "",
             "changes": [
                 "Various improvements for proper suspend handling",
                 "Application menu support added to Luna Next Cardshell",
@@ -139,12 +153,14 @@
         },
         {
             "version": 17,
+            "release_name": "",
             "changes": [
                 "Small update from upstream layers"
             ]
         },
         {
             "version": 18,
+            "release_name": "",
             "changes": [
                 "Fixed icons for pdf and email apps",
                 "Web applications are now resized when keyboard is visible",
@@ -153,6 +169,7 @@
         },
         {
             "version": 19,
+            "release_name": "",
             "changes": [
                 "Reimplementation of the keymanager service",
                 "New media indexer service to warrant compatibility with legacy webOS",
@@ -164,6 +181,7 @@
         },
         {
             "version": 20,
+            "release_name": "",
             "changes": [
                 "First tweak support within Luna Next Cardshell",
                 "Various UI layout improvements",
@@ -174,12 +192,14 @@
         },
         {
             "version": 21,
+            "release_name": "",
             "changes": [
                 "Various bug fixes and application updates"
             ]
         },
         {
             "version": 22,
+            "release_name": "",
             "changes": [
                 "Major suspend handling rework. Not finished yet and device doesn't reliable sleep yet. Will be finished with the next stage",
                 "C+Dav synergy connector update",
@@ -190,6 +210,7 @@
         },
         {
             "version": 23,
+            "release_name": "Affogato",
             "changes": [
                 "Updates for various system apps",
                 "Initial dashboard support in card shell",
@@ -201,6 +222,7 @@
         },
         {
             "version": 24,
+            "release_name": "",
             "unsupported_devices": [ "maguro", "grouper" ],
             "changes": [
                 "Switch from OpenEmbedded dora to daisy release as baseline",
@@ -228,6 +250,7 @@
         },
         {
             "version": 25,
+            "release_name": "",
             "unsupported_devices": [ "maguro", "grouper" ],
             "changes": [
                 "Rebuild of stage 25 because build agent for stable didn't really updated to what it should build from",
@@ -239,6 +262,7 @@
         },
         {
             "version": 26,
+            "release_name": "Antoccino",
             "unsupported_devices": [ "maguro", "grouper" ],
             "changes": [
                 "Fixed wrong display contact phone numbers in contacts application",
@@ -249,6 +273,7 @@
         },
         {
             "version": 27,
+            "release_name": "",
             "unsupported_devices": ["maguro", "grouper"],
             "changes": [
                 "First version of the new QML based first use application",
@@ -265,6 +290,7 @@
         },
         {
             "version": 28,
+            "release_name": "Black Eye",
             "unsupported_devices": ["maguro", "grouper"],
             "changes": [
                 "Back gesture is working again",
@@ -275,6 +301,7 @@
         },
         {
             "version": 29,
+            "release_name": "",
             "unsupported_devices": ["maguro", "grouper"],
             "changes": [
                 "Upgraded Yocto to Dizzy release",
