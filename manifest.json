@@ -321,7 +321,7 @@
             "release_name": "Black Tie",
             "unsupported_devices": ["maguro", "grouper"],
             "changes": [
-                "Added high resolution graphics for app menu",
+                "Added high resolution graphics for system menu",
                 "Fixed button width bug in First Use application"
             ]
         }
