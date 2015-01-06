@@ -327,7 +327,7 @@
         },
         {
             "version": 31,
-            "release_name": "Breeve",
+            "release_name": "Breve",
             "unsupported_devices": ["maguro", "grouper"],
             "changes": [
                 "Initial support for IM and SMS messaging",
