@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 30,
+    "platformVersion": 31,
     "changeLog": [
         { "version": 1, "release_name": "", "changes": [] },
         { "version": 2, "release_name": "", "changes": [] },
@@ -323,6 +323,22 @@
             "changes": [
                 "Added high resolution graphics for system menu",
                 "Fixed button width bug in First Use application"
+            ]
+        },
+        {
+            "version": 31,
+            "release_name": "Breeve",
+            "unsupported_devices": ["maguro", "grouper"],
+            "changes": [
+                "Initial support for IM and SMS messaging",
+                "Mobile data usage is now functional but needs an unlocked SIM card and be manually enabled through the settings app",
+                "Extended dashboard support",
+                "Location service with WiFi based position source only (using Mozilla's location service; see https://location.services.mozilla.com/)",
+                "Charger status on Nexus 4 is now correctly detected",
+                "Improved image quality in some apps and the card shell",
+                "Screen recording support (see https://github.com/webOS-ports/luna-next/pull/93 for details)",
+                "Backend support for MMS messages, not integrated with LuneOS services",
+                "Several meta data cleanups"
             ]
         }
     ]
