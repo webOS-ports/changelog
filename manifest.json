@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 31,
+    "platformVersion": 32,
     "changeLog": [
         { "version": 1, "release_name": "", "changes": [] },
         { "version": 2, "release_name": "", "changes": [] },
@@ -339,6 +339,40 @@
                 "Screen recording support (see https://github.com/webOS-ports/luna-next/pull/93 for details)",
                 "Backend support for MMS messages, not integrated with LuneOS services",
                 "Several meta data cleanups"
+            ]
+        },
+        {
+            "version": 32,
+            "release_name": "Americano",
+            "unsupported_devices": ["maguro", "grouper"],
+            "changes": [
+                "Split meta-webos-ports layer to meta-luneos and meta-luneui",
+                "Several fixes and changes to our way of handling window management",
+                "add spash for windows not loaded yet",
+                "several icons are available in higher quality now and got resized to hit the screen size",
+                "carrier operator name is now shown in the status bar",
+                "splash screen is now handled by the compositor",
+                "window management was reworked to make sure windows are destroyed at the right time",
+                "Showing a window is now bound to stageReady state again",
+                "new navigator.InAppBrowser API to open in application browser windows for authentication purposes",
+                "privileged applications can now set the allowCrossDomain field in appinfo.json to allow cross domain access",
+                "Adds functionality to add and edit contact",
+                "Added subscription to WiFi status so the system menu will be updated whenever the connection status changes",
+                "Prevent applications from being reloaded when they don't require internet connectivity",
+                "Fix applications not getting visible because stageReady timer was never fired",
+                "Update mostly all apps to enyo 2.5.1.1",
+                "Various improvements and bug fixes to messaging services",
+                "Mark us on puck when any charger is connected to get dockmode visible",
+                "Only adjust the focussed window for a visible keyboard",
+                "Multi window support for browser application",
+                "Conctact picker for messaging application",
+                "Dock mode implementation with clocks only (exhibition will follow)",
+                "Save new contacts in contacts application but only locally",
+                "Switched to new InAppBrowser for Google OAuth account validator",
+                "Various improvements for the {card,cal}dav synergy connector",
+                "SMS messages can now be send to multiple recipients",
+                "Rework webview creation to render launcher always correctly",
+                "Fixed kernel crash for Touchpad when accessing specific sides from the browser"
             ]
         }
     ]
