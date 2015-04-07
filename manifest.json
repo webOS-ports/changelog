@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 32,
+    "platformVersion": 33,
     "changeLog": [
         { "version": 1, "release_name": "", "changes": [] },
         { "version": 2, "release_name": "", "changes": [] },
@@ -373,6 +373,42 @@
                 "SMS messages can now be sent to multiple recipients",
                 "Rework webview creation to render launcher always correctly",
                 "Fixed kernel crash for Touchpad when accessing specific sites from the browser"
+            ]
+        },
+        {
+            "version": 33,
+            "release_name": "Aulait",
+            "unsupported_devices": ["maguro", "grouper"],
+            "changes": [
+                "Added contact-lib for common functionality when working with contacts in LuneOS",
+                "Added initial support for sensor mananagement",
+                "QML Apps: Switch to Lune.Service module for LunaService component",
+                "Added initial support for LED",
+                "Added initial support for Bluetooth on Nexus 4 (back-end only for now)",
+                "Calculator app: Minor improvements",
+                "File Manager: Update to Enyo 2.5.1.1",
+                "Ported voicecall from Nemo to use in LuneOS",
+                "Cleaned up webos-lib to remove duplication with enyo-webos",
+                "Fix media indexer to store file name without extension",
+                "Add alert service method to display manager",
+                "Added telephony-lib for shared telephony functionality",
+                "Update C+Dav to 0.3.25",
+                "Improved audio service",
+                "Calendar app: Enyo 2 version has had some work, but not no back-end implementation yet",
+                "Add support for phone app launching from first use (support for PIN window)",
+                "Phone app: Work ongoing for making initial audio call support work",
+                "luna-systemui: Fix restart options, charging status and battery notification handling",
+                "FirstUse: Improved timezone layout and ability to show network passphrase",
+                "Fixed orientation of keyboard window mask",
+                "Add support for QT Quick Controls for QML applications",
+                "Added luneos-components to support styling of QML components being used in apps",
+                "Contacts app: Added support for contact editing & updating associated contacts",
+                "Messaging app: Various minor fixes",
+                "Testr: Added new icon",
+                "webos-telephonyd: Fixed compiler warnings & cleaned up WAN enabling code",
+                "Settings app: Fixed the toggle handling for Telephony",
+                "Lune-next: Added proper handling for orientation (no full orientation support available yet)",
+                "Luna-Next Cardshell: Added support for PIN windows, ability to exit DockMode with gesture bar, layout improvement to system menu and status bar, fixed icon scaling"
             ]
         }
     ]
