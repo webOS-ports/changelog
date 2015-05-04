@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 33,
+    "platformVersion": 34,
     "changeLog": [
         { "version": 1, "release_name": "", "changes": [] },
         { "version": 2, "release_name": "", "changes": [] },
@@ -409,6 +409,27 @@
                 "Settings app: Fixed the toggle handling for Telephony",
                 "Lune-next: Added proper handling for orientation (no full orientation support available yet)",
                 "Luna-Next Cardshell: Added support for PIN windows, ability to exit DockMode with gesture bar, layout improvement to system menu and status bar, fixed icon scaling"
+            ]
+        },
+        {
+            "version": 34,
+            "release_name": "Bombon",
+            "unsupported_devices": ["maguro", "grouper"],
+            "changes": [
+                "Luna-sysservice: Reduced a large number of error messages in logs",
+                "Preware: Minor UI tweaks to Settings, Feeds and application dialogs",
+                "Settings: Add support for PIN & Password screen lock",
+                "Luna-sysmgr-common: Reduced a large number of error messages in logs",
+                "Luna-sysmgr-common: Added initial support for LEDs",
+                "C+DAV: Updated to 0.3.29, fixing broken Google sync & various other minor fixes",
+                "Messaging: Various minor UI fixes",
+                "Messaging: Rework of chatthreader and allow sending messages to non-contacts",
+                "Luna-next: Added initial support for LEDs",
+                "Testr: Added tests for HTML5 Geolocation API, Responsive images (using srcset, SVG and -webkit-image-set)",
+                "Luna-next-cardshell: Added UI rotation support & rotation lock",
+                "Luna-next-cardshell: Added tabbed launcher, including the possibility to drag icons to other tabs. Various options for tab-settings available via Tweaks (including number of tabs, arrows etc). Layout can look like legacy webOS (2.x and/or 3.x)",
+                "Luna-next-cardshell: Various UI tweaks, mainly related to the lockscreen and it's size",
+                "Webos-keyboard: Fixes to make it work correctly with UI rotation",
             ]
         }
     ]
