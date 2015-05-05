@@ -414,7 +414,7 @@
         {
             "version": 34,
             "release_name": "Bombon",
-            "unsupported_devices": ["maguro", "grouper"],
+            "unsupported_devices": ["maguro"],
             "changes": [
                 "Luna-sysservice: Reduced a large number of error messages in logs",
                 "Preware: Minor UI tweaks to Settings, Feeds and application dialogs",
@@ -430,6 +430,8 @@
                 "Luna-next-cardshell: Added tabbed launcher, including the possibility to drag icons to other tabs. Various options for tab-settings available via Tweaks (including number of tabs, arrows etc). Layout can look like legacy webOS (2.x and/or 3.x)",
                 "Luna-next-cardshell: Various UI tweaks, mainly related to the lockscreen and it's size",
                 "Webos-keyboard: Fixes to make it work correctly with UI rotation",
+                "Grouper (Nexus 7 2012 WiFi version) is working again!",
+                "Reboot and shutdown are working again"
             ]
         }
     ]
