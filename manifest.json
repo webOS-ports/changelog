@@ -414,7 +414,7 @@
         {
             "version": 34,
             "release_name": "Bombon",
-            "unsupported_devices": ["maguro", "grouper"],
+            "unsupported_devices": ["maguro"],
             "changes": [
                 "Luna-sysservice: Reduced a large number of error messages in logs",
                 "Preware: Minor UI tweaks to Settings, Feeds and application dialogs",
