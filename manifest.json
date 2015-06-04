@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 34,
+    "platformVersion": 35,
     "changeLog": [
         { "version": 1, "release_name": "", "changes": [] },
         { "version": 2, "release_name": "", "changes": [] },
@@ -432,6 +432,26 @@
                 "Webos-keyboard: Fixes to make it work correctly with UI rotation",
                 "Grouper (Nexus 7 2012 WiFi version) is working again!",
                 "Reboot and shutdown are working again"
+            ]
+        },
+        {
+            "version": 35,
+            "release_name": "Cubano",
+            "unsupported_devices": ["maguro"],
+            "changes": [
+                "webos-keyboard: Large rework to have separate layouts for phones & tablets.",
+                "webos-keyboard: Brought back different keyboard sizes, number row and trackball for tablets.",
+                "webos-keyboard: Removed all Ubuntu references and cleaned up unneeded files.",
+                "webos-keyboard: Created Qt Creator test framework to be able to more easily develop on desktop.",
+                "webos-keyboard: Made keyboard items more flexible by using Units.gu instead of pixel values.",
+                "Settings: Add search preferences.",
+				"luna-next: Fix screen recorder state",
+				"Messaging: Possibility to delete individual messages via context menu.",
+				"Testr: Add dashboard tests.",
+				"qtwayland: Disable mouse grabber as it prevents compositor items from getting press event notifications.",
+				"FirstUse: Fixed font display bug on emulator.",
+				"Luna-Next-Cardshell: CardView: improved CardWindowWrapper initiation.",
+				"Update: Allow updates in testing tree."
             ]
         }
     ]
