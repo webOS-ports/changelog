@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 35,
+    "platformVersion": 36,
     "changeLog": [
         { "version": 1, "release_name": "", "changes": [] },
         { "version": 2, "release_name": "", "changes": [] },
@@ -452,6 +452,28 @@
 				"FirstUse: Fixed font display bug on emulator.",
 				"Luna-Next-Cardshell: CardView: improved CardWindowWrapper initiation.",
 				"Update: Allow updates in testing tree."
+            ]
+        },
+        {
+            "version": 36,
+            "release_name": "Crema",
+            "unsupported_devices": ["maguro"],
+            "changes": [
+                "Browser: Various bugfixes and support for various dialogs, alerts and popups.",
+		"Calculator: Various minor improvements.",
+		"FirstUse: Rewore luna-service calls and added mock data for desktop & added filters in the lists.",
+		"Preware: A number of minor bugfixes.",
+		"Settings: Added proper handling of Audio settings.",
+		"Luna-Next-Cardshell: Fixed various minor bugs.",
+		"Photos & Videos: Initial app mock.",
+		"PDF: Updated to pdf.js 1.1.215 pre-release.",
+		"Testr: Fix bugs in luna-service calls.",
+		"Tweaks: Fix some cosmetics in banner messages.",
+		"utilities: Enable bluetooth on Touchpad.",
+		"webos-keyboard: Added many additional languages and various bugfixes.",
+		"Audio-service: Fix volume handling.",
+		"luna-init: Enable all available keyboard languages.",
+		"luna-webappmanager: Add support of new features like popups, dialogs and alerts."
             ]
         }
     ]
