@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 36,
+    "platformVersion": 37,
     "changeLog": [
         { "version": 1, "release_name": "", "changes": [] },
         { "version": 2, "release_name": "", "changes": [] },
@@ -474,6 +474,29 @@
 		"Audio-service: Fix volume handling.",
 		"luna-init: Enable all available keyboard languages.",
 		"luna-webappmanager: Add support of new features like popups, dialogs and alerts."
+            ]
+        },
+        {
+            "version": 37,
+            "release_name": "Olla",
+            "unsupported_devices": ["maguro"],
+            "changes": [
+            	"Browser: Various bugfixes to fix crashes, improve rendering of various pages and add a scroll indicator and use LunaWebView from luneos-components so we can share this with the Enyo webapps.",
+    		"Preware: Add the PivotCE feed (disabled by default).",
+    		"FirstUse: Move tests to luneos-components, so we can use the a single source for tests on desktop with QtCreator.",
+		"Virtual Keyboard: Fix minor issues with URL layout for virtual keyboard.",
+    		"Luna-Next-Cardshell: Fix notification handling.",
+    		"Enyo 1.0: Fix faulty spinner, now using Enyo 2.0 variant instead.",
+    		"Accounts/Email: Removed the "Find More" option from HP since it's no longer relevant.",
+		"luna-sysmgr: Make sure that banners are dealt with properly.",
+		"luna-qml-launcher: Use the common application description from luna-sysmgr-common.",
+		"luna-sysmgr-common: Rework the parsing of application description so it's common across various components.",
+    		"luna-appmanager: Use the common application description from luna-sysmgr-common.",
+    		"luna-systemui: Fix charging banner behavior and make sure the sizes adopt properly to different screen sizes.",
+    		"qtwayland: Fixed bug causing incorrect window destruction.",
+    		"luna-next: Use window properties more consistently.",
+    		"luna-webappmanager: Use LunaWebView from luneos-components",
+    		"luneos-components: Fixed missing image for buttons, fixed ItemSelector for browser & apps, add LunaWebView for sharing the WebView between Browser and Enyo apps. Added test import stubs for use on desktop with QtCreator. Added more flexible approach for website/app database sizes."
             ]
         }
     ]
