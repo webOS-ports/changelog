@@ -496,7 +496,8 @@
     		"qtwayland: Fixed bug causing incorrect window destruction.",
     		"luna-next: Use window properties more consistently.",
     		"luna-webappmanager: Use LunaWebView from luneos-components",
-    		"luneos-components: Fixed missing image for buttons, fixed ItemSelector for browser & apps, add LunaWebView for sharing the WebView between Browser and Enyo apps. Added test import stubs for use on desktop with QtCreator. Added more flexible approach for website/app database sizes."
+    		"luneos-components: Fixed missing image for buttons, fixed ItemSelector for browser & apps, add LunaWebView for sharing the WebView between Browser and Enyo apps. Added test import stubs for use on desktop with QtCreator. Added more flexible approach for website/app database sizes.",
+    		"luna-init: Fixed issues with incorrect timezones and timezone descriptions"
             ]
         }
     ]
