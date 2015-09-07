@@ -487,7 +487,7 @@
 		"Virtual Keyboard: Fix minor issues with URL layout for virtual keyboard.",
     		"Luna-Next-Cardshell: Fix notification handling.",
     		"Enyo 1.0: Fix faulty spinner, now using Enyo 2.0 variant instead.",
-    		"Accounts/Email: Removed the "Find More" option from HP since it's no longer relevant.",
+    		"Accounts/Email: Removed the \"Find More\" option from HP since it's no longer relevant.",
 		"luna-sysmgr: Make sure that banners are dealt with properly.",
 		"luna-qml-launcher: Use the common application description from luna-sysmgr-common.",
 		"luna-sysmgr-common: Rework the parsing of application description so it's common across various components.",
