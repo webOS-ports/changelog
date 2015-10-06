@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 37,
+    "platformVersion": 38,
     "changeLog": [
         { "version": 1, "release_name": "", "changes": [] },
         { "version": 2, "release_name": "", "changes": [] },
@@ -498,6 +498,25 @@
     		"luna-webappmanager: Use LunaWebView from luneos-components",
     		"luneos-components: Fixed missing image for buttons, fixed ItemSelector for browser & apps, add LunaWebView for sharing the WebView between Browser and Enyo apps. Added test import stubs for use on desktop with QtCreator. Added more flexible approach for website/app database sizes.",
     		"luna-init: Fixed issues with incorrect timezones and timezone descriptions"
+            ]
+        },
+        {
+            "version": 38,
+            "release_name": "Latte",
+            "unsupported_devices": ["maguro"],
+            "changes": [
+            	"Browser: Switched to QtWebEngine instead of QtWebKit.",
+    		"C+DAV: Upgraded to version 0.3.34.",
+    		"Testr: Added support for HTML5 banners/notification (not yet supported by our version of Qt though).",
+		"OpenEmbedded: Switch from Dizzy to Fido Release (Yocto 1.8)",
+		"Qt5: Upgrade from Qt 5.4.2 to 5.5",
+		"luna-sysmgr: Fixed bug that allowed bypassing PIN/password by connecting USB",
+		"webos-keyboard: Made it compatible with Qt 5.5",
+		"Settings: Cleaned up timezone handling",
+		"luna-next-cardshell: Allow removal of apps from launcher",
+		"qt5-qpa-hwcomposer-plugin: Made it compatible with Qt 5.5",
+		"qtwayland: Made it compatible with Qt 5.5",
+		"luna-next: Made it compatible with Qt 5.5"
             ]
         }
     ]
