@@ -508,7 +508,7 @@
             	"Browser: Switched to QtWebEngine instead of QtWebKit.",
     		"C+DAV: Upgraded to version 0.3.34.",
     		"Testr: Added support for HTML5 banners/notification (not yet supported by our version of Qt though).",
-		"OpenEmbedded: Switch from Dizzy to Fido Release (Yocto 1.8)",
+		"Yocto/OpenEmbedded: Switch from Dizzy to Fido Release (Yocto 1.8)",
 		"Qt5: Upgrade from Qt 5.4.2 to 5.5",
 		"luna-sysmgr: Fixed bug that allowed bypassing PIN/password by connecting USB",
 		"webos-keyboard: Made it compatible with Qt 5.5",
