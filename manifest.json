@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 38,
+    "platformVersion": 39,
     "changeLog": [
         { "version": 1, "release_name": "", "changes": [] },
         { "version": 2, "release_name": "", "changes": [] },
@@ -517,6 +517,50 @@
 		"qt5-qpa-hwcomposer-plugin: Made it compatible with Qt 5.5",
 		"qtwayland: Made it compatible with Qt 5.5",
 		"luna-next: Made it compatible with Qt 5.5"
+            ]
+        },
+        {
+            "version": 39,
+            "release_name": "Marocchino",
+            "unsupported_devices": [],
+            "changes": [
+            	"Migrated rendering of Enyo 1/2 apps from QtWebKit to QtWebEngine.",
+		"Qt5: Upgrade from Qt 5.5 to 5.5.1.",
+		"QtLocation plugin support so we can use HTML 5 Geolocation.",
+		"Support Maguro (Galaxy Nexus GSM) again.",
+		"Fixed audio for Mako (Nexus 4).",
+		"Testr: Added tests for responsive images.",
+		"Browser: Migrated BrowserUtils to QtWebEngine as well.",
+		"FirstUse: Added support for enabling 3rd party Preware (LuneOS App Catalog) feeds to FirstUse.",
+		"FirstUse: Switch to use luneos-components and use QtWebEngine instead of QtWebKit.",
+		"Phone: Migrated to use luneos-components.",
+		"Tweaks: Fixed broken banner notifications.",
+		"Calculator: New rotatable layout, that makes full use of QtWebEngine features.",
+		"Luna-next-cardshell: Made time display in correct format (12/24 hrs), added optional system menu items for devices without hardware power/volume buttons (RaspBerry Pi 2).",
+		"Luna-next-cardshell: Hide notifications when pressing the gesture area.",
+		"Luna-next-cardshell: Work on Bluetooth submenu of System Menu.",
+		"Clock: Fix sloppy bugs in code that caused problems with alarms.",
+		"Accounts: Fix references to files that are not available.",
+		"Contacts: Fix processLaunchParam for Enyo 2.5.1 and webOSjs 1.0.0.",
+		"luna-webappmanager: Migrated Enyo 1/2 apps to QtWebEngine. Still quite fresh, so looking for feedback on things that don't work.",
+		"luna-appmanager: Improved handling of a crash in luna-webappmanager so that Power menu and other apps will keep working.",
+		"luna-init: Added a default keyboard size.",
+		"luneos-components: Fix fonts on desktop.",
+		"luneos-components: Add stub component for BT dbus module.",
+		"luna-qml-launcher: Tweaked behavior for QML apps using QtWebEngine.",
+		"webos-keyboard: Fixed erratic/non working extended keys on ... keys.",
+		"downloadmanager: Initial work on a download manager for browser and other system bits.",
+		"luna-service2: Switched from QtWebProcess to QtWebEngineProcess.",
+		"luna-sysservice: Fixed error messages due to JSON versions.",
+		"luna-sysmgr: Standardization of available fields in device specific .conf file.",
+		"luna-sysmgr: Made sure to remove com.palm.app apps and replace them with org.webosports.app equivalents where available.",
+		"qtwebengine-chromium: Migration webOS/LuneOS specifics from QtWebKit to qtwebengine-chromium.",
+		"qtwebengine: Migration webOS/LuneOS specifics from QtWebKit to qtwebengine-chromium.",
+		"luna-next: Fixed non-working back gesture in Enyo 1 apps.",
+		"luna-next: Fixed Units and Settings singletons.",
+		"webos-systemd-services: Correct the ls-hubd_public.service description.",
+		"webos-telephonyd: Spelling fixes",
+		"luna-qml-launcher: Add qtpositioning plugin"
             ]
         }
     ]
