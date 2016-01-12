@@ -591,7 +591,8 @@
 		"FirstUse: Initial support for IEEE 802.1x (Enterprise Wifi).",
 		"webos-connman-adapter: Moved to our own fork instead of using upstream Open webOS.",
 		"webos-connman-adapter: Migrated patches to commits.",
-		"webos-connman-adapter: Added initial support for IEEE 802.1x (Enterprise WifI)."
+		"webos-connman-adapter: Added initial support for IEEE 802.1x (Enterprise WifI).",
+		"Add mp3 codec playback support"
             ]
         }
     ]
