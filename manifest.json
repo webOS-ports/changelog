@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 39,
+    "platformVersion": 40,
     "changeLog": [
         { "version": 1, "release_name": "", "changes": [] },
         { "version": 2, "release_name": "", "changes": [] },
@@ -561,6 +561,37 @@
 		"webos-systemd-services: Correct the ls-hubd_public.service description.",
 		"webos-telephonyd: Spelling fixes",
 		"luna-qml-launcher: Add qtpositioning plugin"
+            ]
+        },
+        {
+            "version": 40,
+            "release_name": "Medici",
+            "unsupported_devices": [],
+            "changes": [
+            	"Enyo 1.0: Fix high CPU load problem after QtWebEngine migration.",
+		"Luna-Next-Cardshell: Fixed high CPU issue for performance of DockMode Clocks.",
+		"QtWebEngine: Enabled Alsa & PulseAudio.",
+		"Testr: Fix test cases for DashBoards.",
+		"luna-webappmanager: Implement missing bits for notifications (banners/dashboards) to be compatible with legacy API.",
+		"luna-webappmanager: Launch Just Type at startup to reduce time when calling it and improve CPU usage.",
+		"Browser: Migrated BrowserUtils to QtWebEngine as well.",
+		"Clock: Fixed various bits so now it will actually work.",
+		"luna-next: Implement missing bits for notifications (banners/dashboards) to be compatible with legacy API.",
+		"luna-next: Make Tap Ripple/Reticle behave better on various devices.",
+		"luna-next: Add additional keys to emulator F6-F9 to rotate screen on emulator.",
+		"luna-next: Add screen edge flick detection (up and down only for now).",
+		"luneos-components: Add stub for DeviceKeyHandler.",
+		"luneos-components: Add support for newly added parameters for notifications to the tests.",
+		"luneos-components: Add a stub for GestureHandler.",
+		"Messaging: Add relaunch handling to open incoming message/thread.",
+		"Messaging: Make sure the new SMS notification is compatible with API changes.", 
+		"Update: Make sure the new update notification is compatible with API changes.",
+		"luna-sysmgr: Changed the GridUnit value for emulator to 10 instead of 8 pixels. This because Tenderloin (aka Touchpad) uses uses 10 and they share the same resolution.",
+		"Browser: Bring back ContextMenu.",
+		"FirstUse: Initial support for IEEE 802.1x (Enterprise Wifi).",
+		"webos-connman-adapter: Moved to our own fork instead of using upstream Open webOS.",
+		"webos-connman-adapter: Migrated patches to commits.",
+		"webos-connman-adapter: Added initial support for IEEE 802.1x (Enterprise WifI)."
             ]
         }
     ]
