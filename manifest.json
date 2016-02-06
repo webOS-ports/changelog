@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 40,
+    "platformVersion": 41,
     "changeLog": [
         { "version": 1, "release_name": "", "changes": [] },
         { "version": 2, "release_name": "", "changes": [] },
@@ -593,6 +593,37 @@
 		"webos-connman-adapter: Migrated patches to commits.",
 		"webos-connman-adapter: Added initial support for IEEE 802.1x (Enterprise WifI).",
 		"Add mp3 codec playback support"
+            ]
+        },
+        {
+            "version": 41,
+            "release_name": "Miel",
+            "unsupported_devices": [],
+            "changes": [
+            	"activitymanager: Allow 1 minute intervals to solve some issues in logs with db8, enable modem reading again.",
+            	"sleepd: Add alarms.xml file.",
+            	"luna-universalsearchmanager: Fix various memory leaks, make org.webosports.* also privileged like com.palm.* so they can have Just Type actions.",
+            	"luna-next-carshell: Fix removal of notification.",
+            	"Messaging (org.webosports.app.messaging): Handle Just Type launch params (you can now create a new message from Just Type).",
+            	"Testr (org.webosports.app.testr): Add tests for vibration API.",
+            	"Maps (org.webosports.app.maps): Fix pinch to zoom & panning during pinch-to-zoom (fixes bugs 957 & 1043).",
+            	"luna-appmanager: Add org.webosports.* apps as trusted apps.",
+            	"luna-init: Add handlers for various filetypes, cleanup no longer used types and fix syntax errors.",
+            	"PDF (org.webosports.app.pdf): Update PDF.js to v1.3.90, add sample files, fix syntax errors, added document rotation and previous/next page buttons.",
+            	"Media Indexer: Setup permissions for legacy apps, so when they're sideloaded they can work. Fixed com.palm.media.audio.file:1 to be compatible with legacy (still missing thumbnail images). Fixed com.palm.media.video.file:1, com.palm.media.image.file:1 and com.palm.media.misc.file:1 to be compatible with legacy.",
+            	"Update (org.webosports.update): Add new update icon.",
+            	"FileManager (org.webosports.app.filemanager): Update to Enyo 2.5.1.1 and latest libs, display filesize in kb, mb, gb etc where needed. Fixed app name from bootplate to it's proper name.",
+            	"Preware: (org.webosinternals.preware): Cleanup of old bits (opkg replaced by ipkg) and preware.org replaced with preware.net.",
+            	"Phone: (org.webosports.app.phone): Major code cleanup, layout tuning & making the app actually work. Added call history, contact lookup & favorites.",
+            	"Settings: (org.webosports.app.settings): Add category icons (fixes bug 1053), added initial Bluetooth support, use default FilePicker for sounds, add initial support for hidden networks.",
+            	"luna-webappmanager: Add support for hidden wifi networks, added resetDeviceList function for Bluetooth.",
+            	"webos-keyboard: Add dismiss & underscore key to phone vkb.",
+            	"C+DAV (org.webosports.service.contacts.carddav): Add access to org.webosports.app.contacts as well just like com.palm.app.contacts.",
+            	"luna-sysmgr-common: Fix lifecycle of json string.",
+            	"luna-sysservice: Fix lifecycle of json string, make subscribe optional for getPreferences, use json-c instead of cjson.",
+            	"app-services: Proper access to org.webosports.app.contacts, fixed globalization issue.",
+            	"luna-systemui: Drop getMigrationStatus since it's not part of Open webOS.",
+            	"LuneOS Components: Add ClippedImage component, Sync ApplicationWindow.WindowType with the ones from LunaNext, Db8Model: add more testing capabilities, fix LS2 registration, improve DB8 stub, use B2G libphonenumber.js."
             ]
         }
     ]
