@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 41,
+    "platformVersion": 42,
     "changeLog": [
         { "version": 1, "release_name": "", "changes": [] },
         { "version": 2, "release_name": "", "changes": [] },
@@ -625,6 +625,28 @@
             	"luna-systemui: Drop getMigrationStatus since it's not part of Open webOS.",
             	"LuneOS Components: Add ClippedImage component, Sync ApplicationWindow.WindowType with the ones from LunaNext, Db8Model: add more testing capabilities, fix LS2 registration, improve DB8 stub, use B2G libphonenumber.js."
             ]
+        },
+        {
+            "version": 42,
+            "release_name": "Milk",
+            "unsupported_devices": [],
+            "changes": [
+            	"luna-systemui: Disabled appInstallStatus for now untill we have a working Download Manager, disabled call to com.palm.storage since it's not available.",
+            	"luna-sysmgr-common: Disable RadioType check, return carrierAvailable as true instead of relying on m_radioType.",
+            	"luna-sysgr: Disabled call to postNovacomStatus, enabled ALS for various targets.",
+                "luna-webappmanager: Don't stop unit if luna-next exits on its own.",
+                "org.webosports.app.photos: Added Apache 2.0 license.",
+                "luna-appmanager: Disable call to create FAKEFS since we don't have the JSON file for it anyway.",
+                "org.webosports.app.testr: Add Apache 2.0 license.",
+                "luna-init: Change wallpaper location to /media/internal/.",
+                "org.webosports.app.browser: Moved Tweaks Support to LuneOS Components & add serviceName in the calls to Tweaks.",
+            	"luna-next-cardshell: Add mask for lockscreen background, Moved Tweaks Support to LuneOS Components, Add mipmap for images to improve quality, Fix App Menu display conditions, Add PadLock at proper position & device type dependant, Added lockscreen gradient, Provide visual feedback on screenshot (right swipe), Centralize Tweaks declaration in AppTweaks singleton, WindowManager: Introduce DockMode & LockScreen mode, Sanitized z-indexes & made visual feedback for screenshots working.",
+                "luneos-components: Add Tweaks.qml & stub values for Tweaks, Add Geocoding support (location lookup based on phone number), Stub compositor: fixed warning.",
+                "loadable-frameworks: Add support for geocoding.",
+                "org.webosports.app.settings: Bluetooth improvements for debugging, WiFi code cleanup & support for connecting to hidden networks.",
+                "qtwayland: Add password delay mask: show input in password fields for 1s before hiding it.",
+                "org.webosports.app.phone: Rework of call history page & add geocoding support, Added Tweak for dialpad vibration feedback, Use valid phone numbers as fake test data, Improved incoming & active call pages, Added basic USSD support."
+                ]
         }
     ]
 }
