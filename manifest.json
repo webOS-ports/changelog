@@ -645,7 +645,8 @@
                 "loadable-frameworks: Add support for geocoding.",
                 "org.webosports.app.settings: Bluetooth improvements for debugging, WiFi code cleanup & support for connecting to hidden networks.",
                 "qtwayland: Add password delay mask: show input in password fields for 1s before hiding it.",
-                "org.webosports.app.phone: Rework of call history page & add geocoding support, Added Tweak for dialpad vibration feedback, Use valid phone numbers as fake test data, Improved incoming & active call pages, Added basic USSD support."
+                "org.webosports.app.phone: Rework of call history page & add geocoding support, Added Tweak for dialpad vibration feedback, Use valid phone numbers as fake test data, Improved incoming & active call pages, Added basic USSD support.",
+                "com.palm.location/org.webosports.location: Upgraded from GeoClue 2.2 to 2.4.1 and using Google Location Services instead of Mozilla as default"
                 ]
         }
     ]
