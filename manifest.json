@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 42,
+    "platformVersion": 43,
     "changeLog": [
         { "version": 1, "release_name": "", "changes": [] },
         { "version": 2, "release_name": "", "changes": [] },
@@ -647,6 +647,46 @@
                 "qtwayland: Add password delay mask: show input in password fields for 1s before hiding it.",
                 "org.webosports.app.phone: Rework of call history page & add geocoding support, Added Tweak for dialpad vibration feedback, Use valid phone numbers as fake test data, Improved incoming & active call pages, Added basic USSD support.",
                 "com.palm.location/org.webosports.location: Upgraded from GeoClue 2.2 to 2.4.1 and using Google Location Services instead of Mozilla as default"
+                ]
+        },
+        {
+            "version": 43,
+            "release_name": "Mocha",
+            "unsupported_devices": [],
+            "changes": [
+                "Upgrade from Yocto 1.8 Fido through Yocto 2.0 Jethro to Yocto 2.1 Krogoth.",
+                "luna-sysmgr: Add .conf files for Raspberry Pi 2/3.",
+                "nyx-modules: Added config for Raspberry Pi 2/3.",
+                "qt5-qpa-hwcomposer-plugin: Updated to most recent upstream version.",
+                "jenkins-jobs: Add supports for Raspberry Pi 2/3.",
+                "android-property-service: Fix crash in getAllProperties method.",
+                "webos-keyboard: Make sure settings are saved when they are changed in the virtual keyboard.",
+                "luna-webappmanager: Various fixes for bluetooth & wifi.",
+                "luna-next-cardshell: Fix behavior of App Menu and it's opening by gesture.",
+                "pmcertificatemgr: Big rework & cleanup of Open webOS code (not yet in nightlies due to other components that need updating).",
+                "qtwayland: Add a fix to make it work with Qt 5.6.",
+                "mediaindexer: Populate com.palm.media.audio.album, com.palm.media.audio.genre, com.palm.media.audio.artist & fix com.palm.media.audio.file.",
+                "qtwebengine: Update to 5.6.0.",
+                "qtwebengine-chromium: Update to Chromium 45-based for Qt 5.6.0.",
+                "meta-rpi-luneos: Added layer for Raspberry Pi 2/3 to our repo.",
+                "meta-raspberrypi: Added layer for Raspberry Pi 2/3 to our repo.",
+                "wayland: Update to 1.9 from Yocto 2.1 in order to solve Qt 5.6.0 crashes.",
+                "hunspell-dictionaries: Added dictionaries for various languages, to use with spellchecking & predictive text (Needs to be enabled in Settings and it's still work in progress).",
+                "hunspell: Update to 1.3.4.",
+                "presage: Update to 0.9.1.",
+                "maliit: Update to more recent upstream.",
+                "bluez4: Add dbus policy so that Bluetooth headset can connect and route audio.",
+                "systemd: Disabled fdinfo stat to bypass Mako bootloop.",
+                "pulseaudio-modules-droid: Make it work with PulseAudio 8.",
+                "mmsd: Update mssd.service with correct location.",
+                "pidgin: Update to 2.10.12.",
+                "qtwebengine: Update configuration so audio works correctly with QT 5.6.",
+                "keymanager: Disable node-sqlite3 database for now pending rework of various NodeJS bits.",
+                "C+DAV: Update for compatibility with NodeJS 4.4.x.",
+                "Keymanager: Update for compatibility with NodeJS 4.4.x.",
+                "connman: Use recipe from openembedded core directly.",
+                "qtwebengine: Fix crash on html5test.com and apps using HTML5 databases on ARM devices.",
+                "FingerTerm: Worked together with people from Mer to have customizations for LuneOS build in. It now uses Prelude as font :)."
                 ]
         }
     ]
