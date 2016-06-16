@@ -720,6 +720,7 @@
                 "mediaindexer: Fix issue with image albums & memory leaks.",
                 "luna-appmanager: Fix various warnings that lead to many crashes at boottime.",
                 "org.webosports.app.contacts: Switched to Enyo 2.7.",
+                "org.webosports.app.contacts: In contact details pane, tapping on a phone number, email, IM, URL, address, birthday or anniversary attempts to open the apropriate app. Tapping on a relation searches for that name in Contacts.",
                 "messaging-accounts: Added initial work for IM templates.",
                 "luneos-default-wallpapers: Fix QA issues during build.",
                 "connman-conf: install wired-setup to datadir.",
