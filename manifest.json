@@ -1,6 +1,6 @@
 {
     "manifestVersion": 2,
-    "platformVersion": 45,
+    "platformVersion": 46,
     "changeLog": [
         { "version": 1, "release_name": "", "changes": [] },
         { "version": 2, "release_name": "", "changes": [] },
@@ -801,6 +801,34 @@
 		"qtwebengine-chromium: Update to latest Chromium 45 from upstream.",
 		"qtwebengine: Update to latest from QT 5.6 (August 5, 2016)."
                 ]
+        },
+        {
+            "version": 46,
+            "release_name": "Zorro",
+            "unsupported_devices": [],
+            "changes": [
+		"Testr (org.webosports.app.testr): Differentiate between sounds for different tests.",
+		"Phone (org.webosports.app.phone): Rename ApplicationWindow to LuneOSWindow, Move the Ring management to a dedicated service, PhoneWindow: hide the IncomingCallAlert window when the call is ended, RingManager: little cleanup, Tests: move Meego.QOfono and org.nemomobile.voicecall to luneos-components, RingManager: get ringtone from preferences.",
+		"C+DAV (org.webosports.service.contacts.carddav): Add access for all com.palm.* apps (fixes issues with adding a C+Dav account from Calendar app).",
+		"Browser (org.webosports.app.browser): Add proper fullscreen mode call to cardshell, Allow "about:"-urls, Rename ApplicationWindow to LuneOSWindow, Refactor code, Remove some useless top-level properties, Reorganize panels, Refactor SearchSuggestions related code, HistoryPanel: switch to Db8Model, AppTweaks: fix invalid tweaks key, Split util.js and create dedicate models for history & bookmarks, Move subcomponents in their own directory, There is no "states" on a Quick Window, Remaining fixes after refactoring, Fix suggestion list overlapping action tooltip, Fix size of cut/copy/paste tooltip, Also show search suggestions if default search is set, Fix fullscreen behavior after rework, NavigationBar: use onClicked instead of onPressed/onReleased, Use WebEngineView's contextual menu, BrowserWebView: rely on WebEngine to open new cards, Cleanup unneeded js files, fixed behavior of progress bar after rework.",
+		"Clock (core-apps, com.palm.app.clock): Minor code cleanup.",
+		"FirstUse (org.webosports.app.firstuse): Show WiFiPage only on device with WiFi, Fix connecting to open networks from FirstUse, fix incorrect timezone selection & code cleanup, added time format selection & minor layout tweaks, fix handling for DST.",
+		"Messaging (org.webosports.app.messaging): Add soundClass notifications for the notification so we have sound playback on incoming messages.",
+		"qtwebengine-chromium: Update to latest from upstream (30-Aug-2016).",
+		"luna-qml-launcher: Add $QT_IMPORT_QML/LunaWebEngineViewStyle as an import path to allow overloading of the QML definition of the UIDelegates of the WebEngineView instances.",
+		"luneos-components: Use new luna://org.webosports.luna/enableFullScreenMode service, Add stub call for device info, Fix typo in battery_challenge, Rename ApplicationWindow to LuneOSWindow, Small fixes to remove warnings, Tests: move Meego.QOfono and org.nemomobile.voicecall to luneos-components, Tests: add hardcoded com.palm.db/find result for com.palm.browserpreferences:1, Db8Model: cancel running LS2 call upon destruction, QtWebEngine: add our overload of the WebEngineView UI Delegates, Components: remove useless ContextMenuExtras, Add proper results for com.palm.browserpreferences & region. Additional preference call stub results & timezone table update.",
+		"qtwebengine: Update to latest from upstream Qt 5.6 (03-Sep-2016), fix crashes on new windows, added custom styled context menu.",
+		"luna-next: Add fileUtils to check for existence of files from QML.",
+		"FreeImage: Fix compatibility with GCC 6.0.",
+		"luna-webappmanager: Implement PalmSystem.enableFullScreenMode.",
+		"luna-sysservice: Fix typo in battery_challenge",
+		"imlibpurpleservice: Make getServiceNameFromCapabilityId generic, LibPurpleAdapter: remove conversions to and from Mojo-typed usernames, Add com.palm.config.libpurple db kind & permissions, Remove all hard-coded SERVICENAME_xxx occurrences, Add config management and refactor code, IMServiceHandler: merge implementations for onCreate and onDelete, Fix purple's config dbkind",
+		"messaging-accounts: Update templates to have onCreate and onDelete, cleanup of duplicate suffixes.",
+		"luna-next-cardshell: Add a LS2 service enableFullScreenMode to let apps require fullscreen mode, CardView: fix fullscreen mode for apps, Add body to the notifications, close notifications after launching app, added clock to lockscreen, fixed banners showing incorrect : at the end.",
+		"nyx-lib: Added systemd target file.",
+		"nyx-modules: Wait for touchscreen device before reaching nyx.target.",
+		"webos-systemd-services: LunaSysMgr: wait for nyx.target."                
+		]
         }
     ]
 }
