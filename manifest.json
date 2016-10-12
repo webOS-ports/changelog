@@ -1,834 +1,838 @@
 {
-    "manifestVersion": 2,
-    "platformVersion": 46,
-    "changeLog": [
-        { "version": 1, "release_name": "", "changes": [] },
-        { "version": 2, "release_name": "", "changes": [] },
-        {
-            "version": 3,
-            "release_name": "",
-            "changes": [
-                "Updated Luna Next stack",
-                "Added Tweaks application",
-                "Implemenented noWindow support for WebAppMgr",
-                "Added several mobile optimized websites as application (GMail, YouTube, ...)",
-                "Added possiblity to permanently install webOS on a device"
-            ]
-        },
-        {
-            "version": 4,
-            "release_name": "",
-            "changes": [
-                "Switch to OE release 1.5 dora",
-                "Fix for nodejs",
-                "Fix for logging without password"
-            ]
-        },
-        {
-            "version": 5,
-            "release_name": "",
-            "changes": [
-                "Using maliit as input method",
-                "Using ofono with rilmodem support from cross project (Ubuntu, Mer, webOS ports) effort",
-                "Prelude is back as default font for everything",
-                "System UI and Just Type launcher are back and usable (press power key for some longer time)",
-                "Bug fixes to get Luna Next working on N7",
-                "Bigger gesture area",
-                "Battery status indicator",
-                "Application manager can now launch native applications (try snowshoe in the launcher)"
-            ]
-        },
-        {
-            "version": 6,
-            "release_name": "",
-            "changes": [
-                "Use new QML based browser application instead of snowshoe",
-                "Further work to get audio through pulseaudio/alsa working",
-                "WiFi is working again",
-                "Updated settings application with visual changes for the WiFi panel",
-                "Several updates for the Luna Next UI stack"
-            ]
-        },
-        {
-            "version": 7,
-            "release_name": "",
-            "changes": [
-                "No window decoration anymore for native qt applications",
-                "Virtual keyboard based on the Ubuntu Touch variant of the Maliit keyboard",
-                "Core applications are only using webos-lib instead of webos-ports-lib and webos-lib",
-                "Updates to the Luna Next UI stack to fix bugs and improve performance"
-            ]
-        },
-        {
-            "version": 8,
-            "release_name": "",
-            "changes": [
-                "Rebased on new layers (meta-webos, meta-oe, oe-core)",
-                "Complete rebuild of the whole distribution caused by the rebase"
-            ]
-        },
-        {
-            "version": 9,
-            "release_name": "",
-            "changes": [
-                "Rebased on new layers (meta-webos)",
-                "Unified names of build artifacts",
-                "Connman upgraded to 1.20",
-                "qtwebkit no longer depends on MACHINE_ARCH luna-service2"
-            ]
-        },
-        {
-            "version": 10,
-            "release_name": "",
-            "changes": [
-                "Signature fixes to share more components between maguro and grouper builds (TUNE_PKGARCH).",
-                "Reworked WiFi part of the system settings application",
-                "Extended support for remote web applications",
-                "Fixed callback issues with PalmServiceBridge implementation",
-                "preware doesn't try to download feeds when no internet connection is available",
-                "Several improvements for the system update service"
-            ]
-        },
-        {
-            "version": 11,
-            "release_name": "",
-            "changes": [
-                "luna-service2 is now machine independent which enables us to share a lot more packages between different machines",
-                "System update functionality is now implemented and will enable you to update the system through the UI",
-                "Suspend is working again (still has minor issues but those will be fixed soon)",
-                "Relaunching applications is now possible",
-                "Several meta data cleanups"
-            ]
-        },
-        {
-            "version": 12,
-            "release_name": "",
-            "changes": [
-                "Updates for preware, memo and pdf applications",
-                "Kernel is now automatically updated"
-            ]
-        },
-        {
-            "version": 13,
-            "release_name": "",
-            "changes": [
-                "Rebuilt from scratch",
-                "Updates for apps",
-                "Recipe cleanup"
-            ]
-        },
-        {
-            "version": 14,
-            "release_name": "",
-            "changes": [
-                "Dev mode implementation",
-                "SDL2 support",
-                "More gstreamer plugins added for better multimedia support",
-                "Finally enabling SWAP space on target device (not emulator)",
-                "Various bug fixes for application and cardshell",
-                "Use correct default wallpaper selected in contest again"
-            ]
-        },
-        {
-            "version": 15,
-            "release_name": "",
-            "changes": [
-                "Qt 5.2.1 update",
-                "Small update for meta OE layers from upstream",
-                "luna-sysservice changes from upstream",
-                "fix for that libhybris/qtwayland patch issue"
-            ]
-        },
-        {
-            "version": 16,
-            "release_name": "",
-            "changes": [
-                "Various improvements for proper suspend handling",
-                "Application menu support added to Luna Next Cardshell",
-                "Improvements for keyboard to support more languages (spell checking and predictive text) and fix a lot of bugs",
-                "Fixed telephony service to not constantly segfault",
-                "Bug fixes and UI improvements for cdav synergy connector",
-                "First feedback sound implementation in new audio service component"
-            ]
-        },
-        {
-            "version": 17,
-            "release_name": "",
-            "changes": [
-                "Small update from upstream layers"
-            ]
-        },
-        {
-            "version": 18,
-            "release_name": "",
-            "changes": [
-                "Fixed icons for pdf and email apps",
-                "Web applications are now resized when keyboard is visible",
-                "Fixed problems with system update scripts to post installation steps to next boot"
-            ]
-        },
-        {
-            "version": 19,
-            "release_name": "",
-            "changes": [
-                "Reimplementation of the keymanager service",
-                "New media indexer service to warrant compatibility with legacy webOS",
-                "Correctly set the application id as application name for luna service calls",
-                "Support more media format (mp3, ...) within gstreamer",
-                "Hardware keyboard control is now working again within the emulator",
-                "Various core app UI improvements to look better on our target devices"
-            ]
-        },
-        {
-            "version": 20,
-            "release_name": "",
-            "changes": [
-                "First tweak support within Luna Next Cardshell",
-                "Various UI layout improvements",
-                "Media playback (not hardware accelerated) is working now",
-                "Improved swipe gestures for the Cardshell",
-                "Various bug fixes"
-            ]
-        },
-        {
-            "version": 21,
-            "release_name": "",
-            "changes": [
-                "Various bug fixes and application updates"
-            ]
-        },
-        {
-            "version": 22,
-            "release_name": "",
-            "changes": [
-                "Major suspend handling rework. Not finished yet and device doesn't reliable sleep yet. Will be finished with the next stage",
-                "C+Dav synergy connector update",
-                "Account service now uses the keymanager for storing credentials again",
-                "Rebased on latest upstream meta-webos which brings various components and security updates (such as for openssl)",
-                "Various component upgrades and bug fixes"
-            ]
-        },
-        {
-            "version": 23,
-            "release_name": "Affogato",
-            "changes": [
-                "Updates for various system apps",
-                "Initial dashboard support in card shell",
-                "Rewritten contacts application",
-                "Working google contact/calendar sync",
-                "Reworked suspend/resume handing",
-                "Various bug fixes"
-            ]
-        },
-        {
-            "version": 24,
-            "release_name": "",
-            "unsupported_devices": [ "maguro", "grouper" ],
-            "changes": [
-                "Switch from OpenEmbedded dora to daisy release as baseline",
-                "Using a central Web application manager component instead of a single launcher",
-                "New browser application developed from scratch in the tradition of the old legacy browser",
-                "Introduction of the new messaging application (no backend integration yet)",
-                "Fixed not working reboot/shutdown",
-                "Improved card stack support (still disabled by default; needs to be enabled via tweaks application)",
-                "App icon reordering for the quick launchbar which is synchronized into db8 for persistence",
-                "Reworked notification API",
-                "Universal search manager now uses https URLs by default for all default search providers",
-                "Media indexer now generates thumbnails for indexed images",
-                "Wallpaper chooser in the settings application now uses the FilePicker component (accesses the media index)",
-                "All logging is now going through the journald system service. /var/log is not used anymore",
-                "Various bug fixes and improvements for the C+DAV synergy connector",
-                "Preware now improved settings and app menu",
-                "Installing updates when running a testing or unstable build is not possible anymore",
-                "Playing audio will not break the audio subsystem anymore",
-                "UTC+0 is now the default timezone of the system if user doesn't set another one",
-                "Developer mode is now correctly handled and available through the Just type application by entering the konami code from legacy webOS",
-                "Various bugs fixed and other improvements to the system",
-                "(Nexus 4) WiFi connection are remember accross a reboot now",
-                "(Touchpad) Allow to install LuneOS on a LVM partition named luneos-root"
-            ]
-        },
-        {
-            "version": 25,
-            "release_name": "",
-            "unsupported_devices": [ "maguro", "grouper" ],
-            "changes": [
-                "Rebuild of stage 25 because build agent for stable didn't really updated to what it should build from",
-                "Fixed boot-loop introduced with 24",
-                "Fixed login issues with c+dav and yahoo",
-                "Added missing icon for DuckDuckGo search provider and improved support for search suggestions",
-                "Fixed pulseaudio startup on emulator"
-            ]
-        },
-        {
-            "version": 26,
-            "release_name": "Antoccino",
-            "unsupported_devices": [ "maguro", "grouper" ],
-            "changes": [
-                "Fixed wrong display contact phone numbers in contacts application",
-                "Enabled verbose logging for the WebAppManager by default",
-                "Use correct property of album db8 kind to store it's path",
-                "Be backwards compatible after we've switched the name of the rootfs directory"
-            ]
-        },
-        {
-            "version": 27,
-            "release_name": "",
-            "unsupported_devices": ["maguro", "grouper"],
-            "changes": [
-                "First version of the new QML based first use application",
-                "PIN/password support for the lockscreen",
-                "Various bug fixes and improvements for the browser",
-                "Memory caches for apps are now cleared when a new version gets installed",
-                "Performance overlay support for the compositor which can be enabled from settings app",
-                "Various bug fixes and improvements for cdav synergy service",
-                "Quota of 5MB for databases of web applications",
-                "Support for 64bit emulator",
-                "Bug fixes for preware",
-                "Enabled verbose logging for WebAppManager by default"
-            ]
-        },
-        {
-            "version": 28,
-            "release_name": "Black Eye",
-            "unsupported_devices": ["maguro", "grouper"],
-            "changes": [
-                "Back gesture is working again",
-                "Various fixes for the first use application",
-                "Virtual keyboard is now usable in first use",
-                "Fixed non-ASCII characters being mangled in Enyo 1 apps"
-            ]
-        },
-        {
-            "version": 29,
-            "release_name": "",
-            "unsupported_devices": ["maguro", "grouper"],
-            "changes": [
-                "Upgraded Yocto to Dizzy release",
-                "Upgrade to beta release of qt 5.4",
-                "Upgraded QtWebKit",
-                "Mobile data connectivity is working again for N4 and TP4G with Ericsson f5521GW and Sierra MC77x0 (no UI implementation yet)",
-                "System menu is back",
-                "Various UI and app changes",
-                "Various fixes for the first use application and Language/Region selection added",
-                "TP 4G supported now",
-                "PDF App: Using media indexer now",
-                "Browser: Now saves icons for bookmarks and launcher shortcut"
-            ]
-        },
-        {
-            "version": 30,
-            "release_name": "Black Tie",
-            "unsupported_devices": ["maguro", "grouper"],
-            "changes": [
-                "Added high resolution graphics for system menu",
-                "Fixed button width bug in First Use application"
-            ]
-        },
-        {
-            "version": 31,
-            "release_name": "Breve",
-            "unsupported_devices": ["maguro", "grouper"],
-            "changes": [
-                "Initial support for IM and SMS messaging",
-                "Mobile data usage is now functional but needs an unlocked SIM card and be manually enabled through the settings app",
-                "Extended dashboard support",
-                "Location service with WiFi based position source only (using Mozilla's location service; see https://location.services.mozilla.com/)",
-                "Charger status on Nexus 4 is now correctly detected",
-                "Improved image quality in some apps and the card shell",
-                "Screen recording support (see https://github.com/webOS-ports/luna-next/pull/93 for details)",
-                "Backend support for MMS messages, not integrated with LuneOS services",
-                "Several meta data cleanups"
-            ]
-        },
-        {
-            "version": 32,
-            "release_name": "Americano",
-            "unsupported_devices": ["maguro", "grouper"],
-            "changes": [
-                "Split meta-webos-ports layer to meta-luneos and meta-luneui",
-                "Several fixes and changes to our way of handling window management",
-                "Add spash for windows not loaded yet",
-                "Several icons are available in higher quality now and got resized to hit the screen size",
-                "Carrier operator name is now shown in the status bar",
-                "Splash screen is now handled by the compositor",
-                "Window management was reworked to make sure windows are destroyed at the right time",
-                "Showing a window is now bound to stageReady state again",
-                "New navigator.InAppBrowser API to open in application browser windows for authentication purposes",
-                "Privileged applications can now set the allowCrossDomain field in appinfo.json to allow cross domain access",
-                "Added functionality to add and edit contact",
-                "Added subscription to WiFi status so the system menu will be updated whenever the connection status changes",
-                "Prevent applications from being reloaded when they don't require internet connectivity",
-                "Fix applications not getting visible because stageReady timer was never fired",
-                "Update most apps to latest stable Enyo 2.5.1.1",
-                "Various improvements and bug fixes to messaging services",
-                "Mark us as being on puck (touchstone) when any charger is connected to get dockmode visible",
-                "Only adjust the focussed window for a visible keyboard",
-                "Multi window support for Browser application",
-                "Conctact picker for Messaging application",
-                "Dock mode implementation with Clocks only (Exhibition Mode will follow)",
-                "Save new contacts in Contacts application but only locally",
-                "Switched to new InAppBrowser for Google OAuth account validator",
-                "Various improvements for the C+Dav Synergy connector",
-                "SMS messages can now be sent to multiple recipients",
-                "Rework webview creation to render launcher always correctly",
-                "Fixed kernel crash for Touchpad when accessing specific sites from the browser"
-            ]
-        },
-        {
-            "version": 33,
-            "release_name": "Aulait",
-            "unsupported_devices": ["maguro", "grouper"],
-            "changes": [
-                "Added contact-lib for common functionality when working with contacts in LuneOS",
-                "Added initial support for sensor mananagement",
-                "QML Apps: Switch to Lune.Service module for LunaService component",
-                "Added initial support for LED",
-                "Added initial support for Bluetooth on Nexus 4 (back-end only for now)",
-                "Calculator app: Minor improvements",
-                "File Manager: Update to Enyo 2.5.1.1",
-                "Ported voicecall from Nemo to use in LuneOS",
-                "Cleaned up webos-lib to remove duplication with enyo-webos",
-                "Fix media indexer to store file name without extension",
-                "Add alert service method to display manager",
-                "Added telephony-lib for shared telephony functionality",
-                "Update C+Dav to 0.3.25",
-                "Improved audio service",
-                "Calendar app: Enyo 2 version has had some work, but not no back-end implementation yet",
-                "Add support for phone app launching from first use (support for PIN window)",
-                "Phone app: Work ongoing for making initial audio call support work",
-                "luna-systemui: Fix restart options, charging status and battery notification handling",
-                "FirstUse: Improved timezone layout and ability to show network passphrase",
-                "Fixed orientation of keyboard window mask",
-                "Add support for QT Quick Controls for QML applications",
-                "Added luneos-components to support styling of QML components being used in apps",
-                "Contacts app: Added support for contact editing & updating associated contacts",
-                "Messaging app: Various minor fixes",
-                "Testr: Added new icon",
-                "webos-telephonyd: Fixed compiler warnings & cleaned up WAN enabling code",
-                "Settings app: Fixed the toggle handling for Telephony",
-                "Lune-next: Added proper handling for orientation (no full orientation support available yet)",
-                "Luna-Next Cardshell: Added support for PIN windows, ability to exit DockMode with gesture bar, layout improvement to system menu and status bar, fixed icon scaling"
-            ]
-        },
-        {
-            "version": 34,
-            "release_name": "Bombon",
-            "unsupported_devices": ["maguro"],
-            "changes": [
-                "Luna-sysservice: Reduced a large number of error messages in logs",
-                "Preware: Minor UI tweaks to Settings, Feeds and application dialogs",
-                "Settings: Add support for PIN & Password screen lock",
-                "Luna-sysmgr-common: Reduced a large number of error messages in logs",
-                "Luna-sysmgr-common: Added initial support for LEDs",
-                "C+DAV: Updated to 0.3.29, fixing broken Google sync & various other minor fixes",
-                "Messaging: Various minor UI fixes",
-                "Messaging: Rework of chatthreader and allow sending messages to non-contacts",
-                "Luna-next: Added initial support for LEDs",
-                "Testr: Added tests for HTML5 Geolocation API, Responsive images (using srcset, SVG and -webkit-image-set)",
-                "Luna-next-cardshell: Added UI rotation support & rotation lock",
-                "Luna-next-cardshell: Added tabbed launcher, including the possibility to drag icons to other tabs. Various options for tab-settings available via Tweaks (including number of tabs, arrows etc). Layout can look like legacy webOS (2.x and/or 3.x)",
-                "Luna-next-cardshell: Various UI tweaks, mainly related to the lockscreen and it's size",
-                "Webos-keyboard: Fixes to make it work correctly with UI rotation",
-                "Grouper (Nexus 7 2012 WiFi version) is working again!",
-                "Reboot and shutdown are working again"
-            ]
-        },
-        {
-            "version": 35,
-            "release_name": "Cubano",
-            "unsupported_devices": ["maguro"],
-            "changes": [
-                "webos-keyboard: Large rework to have separate layouts for phones & tablets.",
-                "webos-keyboard: Brought back different keyboard sizes, number row and trackball for tablets.",
-                "webos-keyboard: Removed all Ubuntu references and cleaned up unneeded files.",
-                "webos-keyboard: Created Qt Creator test framework to be able to more easily develop on desktop.",
-                "webos-keyboard: Made keyboard items more flexible by using Units.gu instead of pixel values.",
-                "Settings: Add search preferences.",
-				"luna-next: Fix screen recorder state",
-				"Messaging: Possibility to delete individual messages via context menu.",
-				"Testr: Add dashboard tests.",
-				"qtwayland: Disable mouse grabber as it prevents compositor items from getting press event notifications.",
-				"FirstUse: Fixed font display bug on emulator.",
-				"Luna-Next-Cardshell: CardView: improved CardWindowWrapper initiation.",
-				"Update: Allow updates in testing tree."
-            ]
-        },
-        {
-            "version": 36,
-            "release_name": "Crema",
-            "unsupported_devices": ["maguro"],
-            "changes": [
-                "Browser: Various bugfixes and support for various dialogs, alerts and popups.",
-		"Calculator: Various minor improvements.",
-		"FirstUse: Rewore luna-service calls and added mock data for desktop & added filters in the lists.",
-		"Preware: A number of minor bugfixes.",
-		"Settings: Added proper handling of Audio settings.",
-		"Luna-Next-Cardshell: Fixed various minor bugs.",
-		"Photos & Videos: Initial app mock.",
-		"PDF: Updated to pdf.js 1.1.215 pre-release.",
-		"Testr: Fix bugs in luna-service calls.",
-		"Tweaks: Fix some cosmetics in banner messages.",
-		"utilities: Enable bluetooth on Touchpad.",
-		"webos-keyboard: Added many additional languages and various bugfixes.",
-		"Audio-service: Fix volume handling.",
-		"luna-init: Enable all available keyboard languages.",
-		"luna-webappmanager: Add support of new features like popups, dialogs and alerts."
-            ]
-        },
-        {
-            "version": 37,
-            "release_name": "Olla",
-            "unsupported_devices": ["maguro"],
-            "changes": [
-            	"Browser: Various bugfixes to fix crashes, improve rendering of various pages and add a scroll indicator and use LunaWebView from luneos-components so we can share this with the Enyo webapps.",
-    		"Preware: Add the PivotCE feed (disabled by default).",
-    		"FirstUse: Move tests to luneos-components, so we can use the a single source for tests on desktop with QtCreator.",
-		"Virtual Keyboard: Fix minor issues with URL layout for virtual keyboard.",
-    		"Luna-Next-Cardshell: Fix notification handling.",
-    		"Enyo 1.0: Fix faulty spinner, now using Enyo 2.0 variant instead.",
-    		"Accounts/Email: Removed the \"Find More\" option from HP since it's no longer relevant.",
-		"luna-sysmgr: Make sure that banners are dealt with properly.",
-		"luna-qml-launcher: Use the common application description from luna-sysmgr-common.",
-		"luna-sysmgr-common: Rework the parsing of application description so it's common across various components.",
-    		"luna-appmanager: Use the common application description from luna-sysmgr-common.",
-    		"luna-systemui: Fix charging banner behavior and make sure the sizes adopt properly to different screen sizes.",
-    		"qtwayland: Fixed bug causing incorrect window destruction.",
-    		"luna-next: Use window properties more consistently.",
-    		"luna-webappmanager: Use LunaWebView from luneos-components",
-    		"luneos-components: Fixed missing image for buttons, fixed ItemSelector for browser & apps, add LunaWebView for sharing the WebView between Browser and Enyo apps. Added test import stubs for use on desktop with QtCreator. Added more flexible approach for website/app database sizes.",
-    		"luna-init: Fixed issues with incorrect timezones and timezone descriptions"
-            ]
-        },
-        {
-            "version": 38,
-            "release_name": "Latte",
-            "unsupported_devices": ["maguro"],
-            "changes": [
-            	"Browser: Switched to QtWebEngine instead of QtWebKit.",
-    		"C+DAV: Upgraded to version 0.3.34.",
-    		"Testr: Added support for HTML5 banners/notification (not yet supported by our version of Qt though).",
-		"Yocto/OpenEmbedded: Switch from Dizzy to Fido Release (Yocto 1.8)",
-		"Qt5: Upgrade from Qt 5.4.2 to 5.5",
-		"luna-sysmgr: Fixed bug that allowed bypassing PIN/password by connecting USB",
-		"webos-keyboard: Made it compatible with Qt 5.5",
-		"Settings: Cleaned up timezone handling",
-		"luna-next-cardshell: Allow removal of apps from launcher",
-		"qt5-qpa-hwcomposer-plugin: Made it compatible with Qt 5.5",
-		"qtwayland: Made it compatible with Qt 5.5",
-		"luna-next: Made it compatible with Qt 5.5"
-            ]
-        },
-        {
-            "version": 39,
-            "release_name": "Marocchino",
-            "unsupported_devices": [],
-            "changes": [
-            	"Migrated rendering of Enyo 1/2 apps from QtWebKit to QtWebEngine.",
-		"Qt5: Upgrade from Qt 5.5 to 5.5.1.",
-		"QtLocation plugin support so we can use HTML 5 Geolocation.",
-		"Support Maguro (Galaxy Nexus GSM) again.",
-		"Fixed audio for Mako (Nexus 4).",
-		"Testr: Added tests for responsive images.",
-		"Browser: Migrated BrowserUtils to QtWebEngine as well.",
-		"FirstUse: Added support for enabling 3rd party Preware (LuneOS App Catalog) feeds to FirstUse.",
-		"FirstUse: Switch to use luneos-components and use QtWebEngine instead of QtWebKit.",
-		"Phone: Migrated to use luneos-components.",
-		"Tweaks: Fixed broken banner notifications.",
-		"Calculator: New rotatable layout, that makes full use of QtWebEngine features.",
-		"Luna-next-cardshell: Made time display in correct format (12/24 hrs), added optional system menu items for devices without hardware power/volume buttons (RaspBerry Pi 2).",
-		"Luna-next-cardshell: Hide notifications when pressing the gesture area.",
-		"Luna-next-cardshell: Work on Bluetooth submenu of System Menu.",
-		"Clock: Fix sloppy bugs in code that caused problems with alarms.",
-		"Accounts: Fix references to files that are not available.",
-		"Contacts: Fix processLaunchParam for Enyo 2.5.1 and webOSjs 1.0.0.",
-		"luna-webappmanager: Migrated Enyo 1/2 apps to QtWebEngine. Still quite fresh, so looking for feedback on things that don't work.",
-		"luna-appmanager: Improved handling of a crash in luna-webappmanager so that Power menu and other apps will keep working.",
-		"luna-init: Added a default keyboard size.",
-		"luneos-components: Fix fonts on desktop.",
-		"luneos-components: Add stub component for BT dbus module.",
-		"luna-qml-launcher: Tweaked behavior for QML apps using QtWebEngine.",
-		"webos-keyboard: Fixed erratic/non working extended keys on ... keys.",
-		"downloadmanager: Initial work on a download manager for browser and other system bits.",
-		"luna-service2: Switched from QtWebProcess to QtWebEngineProcess.",
-		"luna-sysservice: Fixed error messages due to JSON versions.",
-		"luna-sysmgr: Standardization of available fields in device specific .conf file.",
-		"luna-sysmgr: Made sure to remove com.palm.app apps and replace them with org.webosports.app equivalents where available.",
-		"qtwebengine-chromium: Migration webOS/LuneOS specifics from QtWebKit to qtwebengine-chromium.",
-		"qtwebengine: Migration webOS/LuneOS specifics from QtWebKit to qtwebengine-chromium.",
-		"luna-next: Fixed non-working back gesture in Enyo 1 apps.",
-		"luna-next: Fixed Units and Settings singletons.",
-		"webos-systemd-services: Correct the ls-hubd_public.service description.",
-		"webos-telephonyd: Spelling fixes",
-		"luna-qml-launcher: Add qtpositioning plugin"
-            ]
-        },
-        {
-            "version": 40,
-            "release_name": "Medici",
-            "unsupported_devices": [],
-            "changes": [
-            	"Enyo 1.0: Fix high CPU load problem after QtWebEngine migration.",
-		"Luna-Next-Cardshell: Fixed high CPU issue for performance of DockMode Clocks.",
-		"QtWebEngine: Enabled Alsa & PulseAudio.",
-		"Testr: Fix test cases for DashBoards.",
-		"luna-webappmanager: Implement missing bits for notifications (banners/dashboards) to be compatible with legacy API.",
-		"luna-webappmanager: Launch Just Type at startup to reduce time when calling it and improve CPU usage.",
-		"Browser: Migrated BrowserUtils to QtWebEngine as well.",
-		"Clock: Fixed various bits so now it will actually work.",
-		"luna-next: Implement missing bits for notifications (banners/dashboards) to be compatible with legacy API.",
-		"luna-next: Make Tap Ripple/Reticle behave better on various devices.",
-		"luna-next: Add additional keys to emulator F6-F9 to rotate screen on emulator.",
-		"luna-next: Add screen edge flick detection (up and down only for now).",
-		"luneos-components: Add stub for DeviceKeyHandler.",
-		"luneos-components: Add support for newly added parameters for notifications to the tests.",
-		"luneos-components: Add a stub for GestureHandler.",
-		"Messaging: Add relaunch handling to open incoming message/thread.",
-		"Messaging: Make sure the new SMS notification is compatible with API changes.", 
-		"Update: Make sure the new update notification is compatible with API changes.",
-		"luna-sysmgr: Changed the GridUnit value for emulator to 10 instead of 8 pixels. This because Tenderloin (aka Touchpad) uses uses 10 and they share the same resolution.",
-		"Browser: Bring back ContextMenu.",
-		"FirstUse: Initial support for IEEE 802.1x (Enterprise Wifi).",
-		"webos-connman-adapter: Moved to our own fork instead of using upstream Open webOS.",
-		"webos-connman-adapter: Migrated patches to commits.",
-		"webos-connman-adapter: Added initial support for IEEE 802.1x (Enterprise WifI).",
-		"Add mp3 codec playback support"
-            ]
-        },
-        {
-            "version": 41,
-            "release_name": "Miel",
-            "unsupported_devices": [],
-            "changes": [
-            	"activitymanager: Allow 1 minute intervals to solve some issues in logs with db8, enable modem reading again.",
-            	"sleepd: Add alarms.xml file.",
-            	"luna-universalsearchmanager: Fix various memory leaks, make org.webosports.* also privileged like com.palm.* so they can have Just Type actions.",
-            	"luna-next-carshell: Fix removal of notification.",
-            	"Messaging (org.webosports.app.messaging): Handle Just Type launch params (you can now create a new message from Just Type).",
-            	"Testr (org.webosports.app.testr): Add tests for vibration API.",
-            	"Maps (org.webosports.app.maps): Fix pinch to zoom & panning during pinch-to-zoom (fixes bugs 957 & 1043).",
-            	"luna-appmanager: Add org.webosports.* apps as trusted apps.",
-            	"luna-init: Add handlers for various filetypes, cleanup no longer used types and fix syntax errors.",
-            	"PDF (org.webosports.app.pdf): Update PDF.js to v1.3.90, add sample files, fix syntax errors, added document rotation and previous/next page buttons.",
-            	"Media Indexer: Setup permissions for legacy apps, so when they're sideloaded they can work. Fixed com.palm.media.audio.file:1 to be compatible with legacy (still missing thumbnail images). Fixed com.palm.media.video.file:1, com.palm.media.image.file:1 and com.palm.media.misc.file:1 to be compatible with legacy.",
-            	"Update (org.webosports.update): Add new update icon.",
-            	"FileManager (org.webosports.app.filemanager): Update to Enyo 2.5.1.1 and latest libs, display filesize in kb, mb, gb etc where needed. Fixed app name from bootplate to it's proper name.",
-            	"Preware: (org.webosinternals.preware): Cleanup of old bits (opkg replaced by ipkg) and preware.org replaced with preware.net.",
-            	"Phone: (org.webosports.app.phone): Major code cleanup, layout tuning & making the app actually work. Added call history, contact lookup & favorites.",
-            	"Settings: (org.webosports.app.settings): Add category icons (fixes bug 1053), added initial Bluetooth support, use default FilePicker for sounds, add initial support for hidden networks.",
-            	"luna-webappmanager: Add support for hidden wifi networks, added resetDeviceList function for Bluetooth.",
-            	"webos-keyboard: Add dismiss & underscore key to phone vkb.",
-            	"C+DAV (org.webosports.service.contacts.carddav): Add access to org.webosports.app.contacts as well just like com.palm.app.contacts.",
-            	"luna-sysmgr-common: Fix lifecycle of json string.",
-            	"luna-sysservice: Fix lifecycle of json string, make subscribe optional for getPreferences, use json-c instead of cjson.",
-            	"app-services: Proper access to org.webosports.app.contacts, fixed globalization issue.",
-            	"luna-systemui: Drop getMigrationStatus since it's not part of Open webOS.",
-            	"LuneOS Components: Add ClippedImage component, Sync ApplicationWindow.WindowType with the ones from LunaNext, Db8Model: add more testing capabilities, fix LS2 registration, improve DB8 stub, use B2G libphonenumber.js."
-            ]
-        },
-        {
-            "version": 42,
-            "release_name": "Milk",
-            "unsupported_devices": [],
-            "changes": [
-            	"luna-systemui: Disabled appInstallStatus for now untill we have a working Download Manager, disabled call to com.palm.storage since it's not available.",
-            	"luna-sysmgr-common: Disable RadioType check, return carrierAvailable as true instead of relying on m_radioType.",
-            	"luna-sysgr: Disabled call to postNovacomStatus, enabled ALS for various targets.",
-                "luna-webappmanager: Don't stop unit if luna-next exits on its own.",
-                "org.webosports.app.photos: Added Apache 2.0 license.",
-                "luna-appmanager: Disable call to create FAKEFS since we don't have the JSON file for it anyway.",
-                "org.webosports.app.testr: Add Apache 2.0 license.",
-                "luna-init: Change wallpaper location to /media/internal/.",
-                "org.webosports.app.browser: Moved Tweaks Support to LuneOS Components & add serviceName in the calls to Tweaks.",
-            	"luna-next-cardshell: Add mask for lockscreen background, Moved Tweaks Support to LuneOS Components, Add mipmap for images to improve quality, Fix App Menu display conditions, Add PadLock at proper position & device type dependant, Added lockscreen gradient, Provide visual feedback on screenshot (right swipe), Centralize Tweaks declaration in AppTweaks singleton, WindowManager: Introduce DockMode & LockScreen mode, Sanitized z-indexes & made visual feedback for screenshots working.",
-                "luneos-components: Add Tweaks.qml & stub values for Tweaks, Add Geocoding support (location lookup based on phone number), Stub compositor: fixed warning.",
-                "loadable-frameworks: Add support for geocoding.",
-                "org.webosports.app.settings: Bluetooth improvements for debugging, WiFi code cleanup & support for connecting to hidden networks.",
-                "qtwayland: Add password delay mask: show input in password fields for 1s before hiding it.",
-                "org.webosports.app.phone: Rework of call history page & add geocoding support, Added Tweak for dialpad vibration feedback, Use valid phone numbers as fake test data, Improved incoming & active call pages, Added basic USSD support.",
-                "com.palm.location/org.webosports.location: Upgraded from GeoClue 2.2 to 2.4.1 and using Google Location Services instead of Mozilla as default"
-                ]
-        },
-        {
-            "version": 43,
-            "release_name": "Mocha",
-            "unsupported_devices": [],
-            "changes": [
-                "Upgrade from Yocto 1.8 Fido through Yocto 2.0 Jethro to Yocto 2.1 Krogoth.",
-                "luna-sysmgr: Add .conf files for Raspberry Pi 2/3.",
-                "nyx-modules: Added config for Raspberry Pi 2/3.",
-                "qt5-qpa-hwcomposer-plugin: Updated to most recent upstream version.",
-                "jenkins-jobs: Add supports for Raspberry Pi 2/3.",
-                "android-property-service: Fix crash in getAllProperties method.",
-                "webos-keyboard: Make sure settings are saved when they are changed in the virtual keyboard.",
-                "luna-webappmanager: Various fixes for bluetooth & wifi.",
-                "luna-next-cardshell: Fix behavior of App Menu and it's opening by gesture.",
-                "pmcertificatemgr: Big rework & cleanup of Open webOS code (not yet in nightlies due to other components that need updating).",
-                "qtwayland: Add a fix to make it work with Qt 5.6.",
-                "mediaindexer: Populate com.palm.media.audio.album, com.palm.media.audio.genre, com.palm.media.audio.artist & fix com.palm.media.audio.file.",
-                "qtwebengine: Update to 5.6.0.",
-                "qtwebengine-chromium: Update to Chromium 45-based for Qt 5.6.0.",
-                "meta-rpi-luneos: Added layer for Raspberry Pi 2/3 to our repo.",
-                "meta-raspberrypi: Added layer for Raspberry Pi 2/3 to our repo.",
-                "wayland: Update to 1.9 from Yocto 2.1 in order to solve Qt 5.6.0 crashes.",
-                "hunspell-dictionaries: Added dictionaries for various languages, to use with spellchecking & predictive text (Needs to be enabled in Settings and it's still work in progress).",
-                "hunspell: Update to 1.3.4.",
-                "presage: Update to 0.9.1.",
-                "maliit: Update to more recent upstream.",
-                "bluez4: Add dbus policy so that Bluetooth headset can connect and route audio.",
-                "systemd: Disabled fdinfo stat to bypass Mako bootloop.",
-                "pulseaudio-modules-droid: Make it work with PulseAudio 8.",
-                "mmsd: Update mssd.service with correct location.",
-                "pidgin: Update to 2.10.12.",
-                "qtwebengine: Update configuration so audio works correctly with QT 5.6.",
-                "keymanager: Disable node-sqlite3 database for now pending rework of various NodeJS bits.",
-                "C+DAV: Update for compatibility with NodeJS 4.4.x.",
-                "Keymanager: Update for compatibility with NodeJS 4.4.x.",
-                "connman: Use recipe from openembedded core directly.",
-                "qtwebengine: Fix crash on html5test.com and apps using HTML5 databases on ARM devices.",
-                "FingerTerm: Worked together with people from Mer to have customizations for LuneOS build in. It now uses Prelude as font :)."
-                ]
-        },
-        {
-            "version": 44,
-            "release_name": "Tobio",
-            "unsupported_devices": [],
-            "changes": [
-                "luna-webappmanager: Fix initial scaling and viewport for apps.",
-                "Tweaks: Cleanup of app code and drop no longer used Mojo version.",
-                "org.webosports.update: Drop unneeded systemd file. Same file was already provided by webos-system-update.",
-                "org.webosports.app.phone: TelephonyManager: fix debug log.",
-                "qtwebengine-chromium: Update to latest Chromium 45 based from upstream (13 bugfixes/backports).",
-                "qtwebengine: Update to latest 5.6.1 from upstream.",
-                "nodejs-module-webos-pmlog: Switched to own repo instead of upstream.",
-                "nodejs-module-webos-dynaload: Switched to own repo instead of upstream & fixed NodeJS 4.x/6.x compatibility.",
-                "nodejs-module-webos-sysbus: Switched to own repo instead of upstream & fixed NodeJS 4.x/6.x compatibility.",
-                "mojoloader: Switched to own repo instead of upstream.",
-                "mojoservicelauncher: Switched to own repo instead of upstream.",
-                "foundation-frameworks: Switched to own repo instead of upstream & fixed NodeJS 4.x/6.x compatibility.",
-                "app-services: Add missing mediathumbnail filecache_type.",
-                "imlibpurpleservice: Various fixes to make it work.",
-                "utilities: Fix includes for bluetooth in build for Touchpad.",
-                "luna-next-cardshell: Notifications, don't resize client window too soon.",
-                "luna-next-cardshell: Fix launchParams to be empty to maintain legacy compatibility.",
-                "luna-service2: Update to latest from upstream.",
-                "org.webosports.app.settings: Fix allow roaming toggle.",
-                "org.webosports.app.settings: Fix the handling of launch params.",
-                "core-apps: Add access for org.webosports.app.memos to com.palm.note.",
-                "webos-telephonyd: Make dial method compatible with legacy & improve errorCode reporting.",
-                "org.webosports.app.tasks: Add initial db8 kind & permissions skeleton for Synergy for tasks.",
-                "mediaindexer: Fix issue with image albums & memory leaks.",
-                "luna-appmanager: Fix various warnings that lead to many crashes at boottime.",
-                "org.webosports.app.contacts: Switched to Enyo 2.7.",
-                "org.webosports.app.contacts: In contact details pane, tapping on a phone number, email, IM, URL, address, birthday or anniversary attempts to open the apropriate app. Tapping on a relation searches for that name in Contacts.",
-                "messaging-accounts: Added initial work for IM templates.",
-                "luneos-default-wallpapers: Fix QA issues during build.",
-                "connman-conf: install wired-setup to datadir.",
-                "hunspell: move ispellaff2myspell to separate package.",
-                "presage: add dependency on ncurses.",
-                "android-property-service: Add DEPENDS on luna-prefs.",
-                "org.webosports.service.update: Add RDEPENDS on bash.",
-                "core-apps: Add RDEPENDS on bash.",
-                "loadable-frameworks: Add RDEPENDS on bash.",
-                "lxc: Add RDEPENDS on bash.",
-                "packagegroup-luneos-development: Bring valgrind back.",
-                "presage: Fix QA issues.",
-                "luneos.inc: Add Ubuntu 15.10 and 16.04 to sanity tested distros.",
-                "geoclue: Add avahi to DEPENDS.",
-                "sensorfw: Add bash to RDEPENDS.",
-                "ofono: Add patches to revert Python 3 changes.",
-                "presage: Implement version independent approach to Python.",
-                "https-everywhere: Add initial recipe for providing the https rulesets.",
-                "pidgin: simplify bbappend.",
-                "qtscenegraph-adaptations: Drop patches & follow upstream directly.",
-                "lxc: Upgrade to 2.0.",
-                "pulseaudio-modules-droid: Fix audio on Nexus 4 (Mako)."
-                ]
-        },
-        {
-            "version": 45,
-            "release_name": "Touba",
-            "unsupported_devices": [],
-            "changes": [
-                "Calculator (org.webosports.app.calculator): Fixed PNG images with incorrect sRGB profile.",
-		"Maps (org.webosports.app.maps): Fixed PNG images with incorrect sRGB profile.",
-		"Browser (org.webosports.app.browser): Fixed PNG images with incorrect sRGB profile, make fullscreen mode behave more properly.",
-		"luna-applauncher (Just Type): Fixed PNG images with incorrect sRGB profile.",
-		"luna-systemui (Just Type): Fixed PNG images with incorrect sRGB profile.",
-		"Preware: Nudge users to enter https feeds instead of http, fixed PNG images with incorrect sRGB profile.",
-		"Tweaks: Fixed PNG images with incorrect sRGB profile.",
-		"core-apps: Fixed PNG images with incorrect sRGB profile.",
-		"Settings: Fixed PNG images with incorrect sRGB profile.",
-		"Flashlight (org.webosports.app.flashlight): Initial work on an app to play with the leds (not included in images yet).",
-		"Testr (org.webosports.app.testr): Added additional banner sound & vibration scenarios.",
-		"luna-universalsearchmgr: Fix build with libxml-2.9.4.",
-		"Messaging: When launched handle an URL, parse and use URL, add missind db kinds & permissions for com.palm.app.messagingprefs, com.palm.carrierdb.settings.current, fixed permissions for com.palm.chatthread and com.palm.message, fixed PNG images with incorrect sRGB profile.",
-		"Contacts (org.webosports.app.contacts): Tapping an IM addr in details sends the IM type, URL and Note editing fields have correct width, Fixed PNG images with incorrect sRGB profile.",
-		"Phone: Add ringtone management for incoming calls.",
-		"Fingerterm: Use monospace as font to fix cursor issues.",
-		"Browser: Make fullscreen mode work more properly (hide space normally used by navigationbar).",
-		"Luna-Next-Cardshell: Fix behavior of rotationLock & muteSound, add management for popup overlay type, update Keys.forwardTo on cardRemove, fixed playback of banner sounds, renamed ringtone.wav references to ringtone.mp3, scan assets folder for sounds (used by Enyo 2 apps), launcher doesn't take action on tap gesture, fixed PNG images with incorrect sRGB profile, handle icons, sounds & vibration for banners, dashboards and notifications properly.",
-		"qtwayland: qwaylandwindow: fix inputDevice for setPopup.",
-		"imlibpurpleservice: Fixed db kinds & permissions for imbuddystatus, added permissions for both org.webosports.* and com.palm.*, fixed various JSON syntax errors, moved LS2 role file to correct location, made getServiceNameFromCapabilityId generic and removed conversion to and from Mojo-typed usernames.",
-		"imaccountvalidator: Fix a lot of small things to make things work.",
-		"audio-service: Fixed type to make sure audio routing works correctly in phone app",
-		"messaging-accounts: Updated & fixed IM templates so they work properly.",
-		"luna-webappmanager: Move handling of icon paths to luna-next-cardshell.",
-		"Enyo-1.0: Fixed PNG images with incorrect sRGB profile.",
-		"webos-keyboard: Fixed PNG images with incorrect sRGB profile.",
-		"luna-next: Add FileUtils plugin to allow checking for file existence in QML, CompositorWindow: add isPopup property to test the Qt window type, Compositor: set the WindowType to Overlay for a popup window, add support for various bits required for proper sound playback through Luna-Next-Cardshell.",
-		"app-services: Drop use of existsSync since it's deprecated in NodeJS 1.x +, add directory to solve error for contact_linker_plugins.",
-		"luna-sysmgr-common: Cleanup of whitespace mess.",
-		"luna-sysmgr: Fixed PNG images with incorrect sRGB profile.",
-		"nyx-modules: Implement MassStorageMode module",
-		"mtp-server: Adjust systemd service configuration for com.palm.storage, stop service when session is closed. Update to newer mtp-server from Ubuntu upstream to make it work with Windows clients and fix a large number of bugs.",
-		"storaged: Make it work with nyx, added Android udev rules, replaced cjson with json-c, added systemd service configuration & intergrated it into image.",
-		"pidgin-sipe: Add SIPE IM plugin for IM",
-		"whatsapp-purple: Add WhatsApp plugin for IM",
-		"purple-skypeweb: Add SkypeWeb plugin for IM",
-		"pidgin: Fix issues with ICQ password > 8 chars, drop discontinued MSN support & include Yahoo plugin.",
-		"binutils: Fix issue with IPKG's containing empty items.",
-		"qtwebengine-chromium: Various upstream fixes, made Prelude the default font instead of monospace.",
-		"Preware 2: Use secure (https) feeds where available.",
-		"org.webosports.service.devmode: Fixed deprecated fs.existsSync calls that aren't compatible with NodeJS 4.x.",
-		"mojoservicelauncher: Fixed deprecated fs.existsSync calls that aren't compatible with NodeJS 4.x.",
-		"mojoloader: Fixed deprecated fs.existsSync calls that aren't compatible with NodeJS 4.x.",
-		"org.webosports.service.downloadmgr: Fixed deprecated fs.exists and fs.existsSync calls that aren't compatible with NodeJS 4.x.",
-		"keymanager: Fixed deprecated fs.exists calls that aren't compatible with NodeJS 4.x.",
-		"activitymanager: ConnectionManagerProxy: merge the \"wire\" activity status into \"wifi\".",
-		"imlibpurpleservice: Made getServiceNameFromCapabilityId generic and removed conversion to and from Mojo-typed usernames.",
-		"webos-connman-adapter: Drop patches that are not needed anymore from repo. Improved the management of wired interfaces.",
-		"qtwebengine-chromium: Update to latest Chromium 45 from upstream.",
-		"qtwebengine: Update to latest from QT 5.6 (August 5, 2016)."
-                ]
-        },
-        {
-            "version": 46,
-            "release_name": "Zorro",
-            "unsupported_devices": [],
-            "changes": [
-		"Testr (org.webosports.app.testr): Differentiate between sounds for different tests.",
-		"Phone (org.webosports.app.phone): Rename ApplicationWindow to LuneOSWindow, Move the Ring management to a dedicated service, PhoneWindow: hide the IncomingCallAlert window when the call is ended, RingManager: little cleanup, Tests: move Meego.QOfono and org.nemomobile.voicecall to luneos-components, RingManager: get ringtone from preferences.",
-		"C+DAV (org.webosports.service.contacts.carddav): Add access for all com.palm.* apps (fixes issues with adding a C+Dav account from Calendar app).",
-		"Browser (org.webosports.app.browser): Add proper fullscreen mode call to cardshell, Allow \"about:\"-urls, Rename ApplicationWindow to LuneOSWindow, Refactor code, Remove some useless top-level properties, Reorganize panels, Refactor SearchSuggestions related code, HistoryPanel: switch to Db8Model, AppTweaks: fix invalid tweaks key, Split util.js and create dedicate models for history & bookmarks, Move subcomponents in their own directory, There is no \"states\" on a Quick Window, Remaining fixes after refactoring, Fix suggestion list overlapping action tooltip, Fix size of cut/copy/paste tooltip, Also show search suggestions if default search is set, Fix fullscreen behavior after rework, NavigationBar: use onClicked instead of onPressed/onReleased, Use WebEngineView's contextual menu, BrowserWebView: rely on WebEngine to open new cards, Cleanup unneeded js files, fixed behavior of progress bar after rework.",
-		"Clock (core-apps, com.palm.app.clock): Minor code cleanup.",
-		"FirstUse (org.webosports.app.firstuse): Show WiFiPage only on device with WiFi, Fix connecting to open networks from FirstUse, fix incorrect timezone selection & code cleanup, added time format selection & minor layout tweaks, fix handling for DST.",
-		"Messaging (org.webosports.app.messaging): Add soundClass notifications for the notification so we have sound playback on incoming messages.",
-		"qtwebengine-chromium: Update to latest from upstream (30-Aug-2016).",
-		"luna-qml-launcher: Add $QT_IMPORT_QML/LunaWebEngineViewStyle as an import path to allow overloading of the QML definition of the UIDelegates of the WebEngineView instances.",
-		"luneos-components: Use new luna://org.webosports.luna/enableFullScreenMode service, Add stub call for device info, Fix typo in battery_challenge, Rename ApplicationWindow to LuneOSWindow, Small fixes to remove warnings, Tests: move Meego.QOfono and org.nemomobile.voicecall to luneos-components, Tests: add hardcoded com.palm.db/find result for com.palm.browserpreferences:1, Db8Model: cancel running LS2 call upon destruction, QtWebEngine: add our overload of the WebEngineView UI Delegates, Components: remove useless ContextMenuExtras, Add proper results for com.palm.browserpreferences & region. Additional preference call stub results & timezone table update.",
-		"qtwebengine: Update to latest from upstream Qt 5.6 (03-Sep-2016), fix crashes on new windows, added custom styled context menu.",
-		"luna-next: Add fileUtils to check for existence of files from QML.",
-		"FreeImage: Fix compatibility with GCC 6.0.",
-		"luna-webappmanager: Implement PalmSystem.enableFullScreenMode.",
-		"luna-sysservice: Fix typo in battery_challenge",
-		"imlibpurpleservice: Make getServiceNameFromCapabilityId generic, LibPurpleAdapter: remove conversions to and from Mojo-typed usernames, Add com.palm.config.libpurple db kind & permissions, Remove all hard-coded SERVICENAME_xxx occurrences, Add config management and refactor code, IMServiceHandler: merge implementations for onCreate and onDelete, Fix purple's config dbkind",
-		"messaging-accounts: Update templates to have onCreate and onDelete, cleanup of duplicate suffixes.",
-		"luna-next-cardshell: Add a LS2 service enableFullScreenMode to let apps require fullscreen mode, CardView: fix fullscreen mode for apps, Add body to the notifications, close notifications after launching app, added clock to lockscreen, fixed banners showing incorrect : at the end.",
-		"nyx-lib: Added systemd target file.",
-		"nyx-modules: Wait for touchscreen device before reaching nyx.target.",
-		"webos-systemd-services: LunaSysMgr: wait for nyx.target."                
+	"manifestVersion": 2,
+	"platformVersion": 47,
+	"changeLog": [{
+		"version": 1,
+		"release_name": "",
+		"changes": []
+	}, {
+		"version": 2,
+		"release_name": "",
+		"changes": []
+	}, {
+		"version": 3,
+		"release_name": "",
+		"changes": [
+			"Updated Luna Next stack",
+			"Added Tweaks application",
+			"Implemenented noWindow support for WebAppMgr",
+			"Added several mobile optimized websites as application (GMail, YouTube, ...)",
+			"Added possiblity to permanently install webOS on a device"
 		]
-        }
-    ]
+	}, {
+		"version": 4,
+		"release_name": "",
+		"changes": [
+			"Switch to OE release 1.5 dora",
+			"Fix for nodejs",
+			"Fix for logging without password"
+		]
+	}, {
+		"version": 5,
+		"release_name": "",
+		"changes": [
+			"Using maliit as input method",
+			"Using ofono with rilmodem support from cross project (Ubuntu, Mer, webOS ports) effort",
+			"Prelude is back as default font for everything",
+			"System UI and Just Type launcher are back and usable (press power key for some longer time)",
+			"Bug fixes to get Luna Next working on N7",
+			"Bigger gesture area",
+			"Battery status indicator",
+			"Application manager can now launch native applications (try snowshoe in the launcher)"
+		]
+	}, {
+		"version": 6,
+		"release_name": "",
+		"changes": [
+			"Use new QML based browser application instead of snowshoe",
+			"Further work to get audio through pulseaudio/alsa working",
+			"WiFi is working again",
+			"Updated settings application with visual changes for the WiFi panel",
+			"Several updates for the Luna Next UI stack"
+		]
+	}, {
+		"version": 7,
+		"release_name": "",
+		"changes": [
+			"No window decoration anymore for native qt applications",
+			"Virtual keyboard based on the Ubuntu Touch variant of the Maliit keyboard",
+			"Core applications are only using webos-lib instead of webos-ports-lib and webos-lib",
+			"Updates to the Luna Next UI stack to fix bugs and improve performance"
+		]
+	}, {
+		"version": 8,
+		"release_name": "",
+		"changes": [
+			"Rebased on new layers (meta-webos, meta-oe, oe-core)",
+			"Complete rebuild of the whole distribution caused by the rebase"
+		]
+	}, {
+		"version": 9,
+		"release_name": "",
+		"changes": [
+			"Rebased on new layers (meta-webos)",
+			"Unified names of build artifacts",
+			"Connman upgraded to 1.20",
+			"qtwebkit no longer depends on MACHINE_ARCH luna-service2"
+		]
+	}, {
+		"version": 10,
+		"release_name": "",
+		"changes": [
+			"Signature fixes to share more components between maguro and grouper builds (TUNE_PKGARCH).",
+			"Reworked WiFi part of the system settings application",
+			"Extended support for remote web applications",
+			"Fixed callback issues with PalmServiceBridge implementation",
+			"preware doesn't try to download feeds when no internet connection is available",
+			"Several improvements for the system update service"
+		]
+	}, {
+		"version": 11,
+		"release_name": "",
+		"changes": [
+			"luna-service2 is now machine independent which enables us to share a lot more packages between different machines",
+			"System update functionality is now implemented and will enable you to update the system through the UI",
+			"Suspend is working again (still has minor issues but those will be fixed soon)",
+			"Relaunching applications is now possible",
+			"Several meta data cleanups"
+		]
+	}, {
+		"version": 12,
+		"release_name": "",
+		"changes": [
+			"Updates for preware, memo and pdf applications",
+			"Kernel is now automatically updated"
+		]
+	}, {
+		"version": 13,
+		"release_name": "",
+		"changes": [
+			"Rebuilt from scratch",
+			"Updates for apps",
+			"Recipe cleanup"
+		]
+	}, {
+		"version": 14,
+		"release_name": "",
+		"changes": [
+			"Dev mode implementation",
+			"SDL2 support",
+			"More gstreamer plugins added for better multimedia support",
+			"Finally enabling SWAP space on target device (not emulator)",
+			"Various bug fixes for application and cardshell",
+			"Use correct default wallpaper selected in contest again"
+		]
+	}, {
+		"version": 15,
+		"release_name": "",
+		"changes": [
+			"Qt 5.2.1 update",
+			"Small update for meta OE layers from upstream",
+			"luna-sysservice changes from upstream",
+			"fix for that libhybris/qtwayland patch issue"
+		]
+	}, {
+		"version": 16,
+		"release_name": "",
+		"changes": [
+			"Various improvements for proper suspend handling",
+			"Application menu support added to Luna Next Cardshell",
+			"Improvements for keyboard to support more languages (spell checking and predictive text) and fix a lot of bugs",
+			"Fixed telephony service to not constantly segfault",
+			"Bug fixes and UI improvements for cdav synergy connector",
+			"First feedback sound implementation in new audio service component"
+		]
+	}, {
+		"version": 17,
+		"release_name": "",
+		"changes": [
+			"Small update from upstream layers"
+		]
+	}, {
+		"version": 18,
+		"release_name": "",
+		"changes": [
+			"Fixed icons for pdf and email apps",
+			"Web applications are now resized when keyboard is visible",
+			"Fixed problems with system update scripts to post installation steps to next boot"
+		]
+	}, {
+		"version": 19,
+		"release_name": "",
+		"changes": [
+			"Reimplementation of the keymanager service",
+			"New media indexer service to warrant compatibility with legacy webOS",
+			"Correctly set the application id as application name for luna service calls",
+			"Support more media format (mp3, ...) within gstreamer",
+			"Hardware keyboard control is now working again within the emulator",
+			"Various core app UI improvements to look better on our target devices"
+		]
+	}, {
+		"version": 20,
+		"release_name": "",
+		"changes": [
+			"First tweak support within Luna Next Cardshell",
+			"Various UI layout improvements",
+			"Media playback (not hardware accelerated) is working now",
+			"Improved swipe gestures for the Cardshell",
+			"Various bug fixes"
+		]
+	}, {
+		"version": 21,
+		"release_name": "",
+		"changes": [
+			"Various bug fixes and application updates"
+		]
+	}, {
+		"version": 22,
+		"release_name": "",
+		"changes": [
+			"Major suspend handling rework. Not finished yet and device doesn't reliable sleep yet. Will be finished with the next stage",
+			"C+Dav synergy connector update",
+			"Account service now uses the keymanager for storing credentials again",
+			"Rebased on latest upstream meta-webos which brings various components and security updates (such as for openssl)",
+			"Various component upgrades and bug fixes"
+		]
+	}, {
+		"version": 23,
+		"release_name": "Affogato",
+		"changes": [
+			"Updates for various system apps",
+			"Initial dashboard support in card shell",
+			"Rewritten contacts application",
+			"Working google contact/calendar sync",
+			"Reworked suspend/resume handing",
+			"Various bug fixes"
+		]
+	}, {
+		"version": 24,
+		"release_name": "",
+		"unsupported_devices": ["maguro", "grouper"],
+		"changes": [
+			"Switch from OpenEmbedded dora to daisy release as baseline",
+			"Using a central Web application manager component instead of a single launcher",
+			"New browser application developed from scratch in the tradition of the old legacy browser",
+			"Introduction of the new messaging application (no backend integration yet)",
+			"Fixed not working reboot/shutdown",
+			"Improved card stack support (still disabled by default; needs to be enabled via tweaks application)",
+			"App icon reordering for the quick launchbar which is synchronized into db8 for persistence",
+			"Reworked notification API",
+			"Universal search manager now uses https URLs by default for all default search providers",
+			"Media indexer now generates thumbnails for indexed images",
+			"Wallpaper chooser in the settings application now uses the FilePicker component (accesses the media index)",
+			"All logging is now going through the journald system service. /var/log is not used anymore",
+			"Various bug fixes and improvements for the C+DAV synergy connector",
+			"Preware now improved settings and app menu",
+			"Installing updates when running a testing or unstable build is not possible anymore",
+			"Playing audio will not break the audio subsystem anymore",
+			"UTC+0 is now the default timezone of the system if user doesn't set another one",
+			"Developer mode is now correctly handled and available through the Just type application by entering the konami code from legacy webOS",
+			"Various bugs fixed and other improvements to the system",
+			"(Nexus 4) WiFi connection are remember accross a reboot now",
+			"(Touchpad) Allow to install LuneOS on a LVM partition named luneos-root"
+		]
+	}, {
+		"version": 25,
+		"release_name": "",
+		"unsupported_devices": ["maguro", "grouper"],
+		"changes": [
+			"Rebuild of stage 25 because build agent for stable didn't really updated to what it should build from",
+			"Fixed boot-loop introduced with 24",
+			"Fixed login issues with c+dav and yahoo",
+			"Added missing icon for DuckDuckGo search provider and improved support for search suggestions",
+			"Fixed pulseaudio startup on emulator"
+		]
+	}, {
+		"version": 26,
+		"release_name": "Antoccino",
+		"unsupported_devices": ["maguro", "grouper"],
+		"changes": [
+			"Fixed wrong display contact phone numbers in contacts application",
+			"Enabled verbose logging for the WebAppManager by default",
+			"Use correct property of album db8 kind to store it's path",
+			"Be backwards compatible after we've switched the name of the rootfs directory"
+		]
+	}, {
+		"version": 27,
+		"release_name": "",
+		"unsupported_devices": ["maguro", "grouper"],
+		"changes": [
+			"First version of the new QML based first use application",
+			"PIN/password support for the lockscreen",
+			"Various bug fixes and improvements for the browser",
+			"Memory caches for apps are now cleared when a new version gets installed",
+			"Performance overlay support for the compositor which can be enabled from settings app",
+			"Various bug fixes and improvements for cdav synergy service",
+			"Quota of 5MB for databases of web applications",
+			"Support for 64bit emulator",
+			"Bug fixes for preware",
+			"Enabled verbose logging for WebAppManager by default"
+		]
+	}, {
+		"version": 28,
+		"release_name": "Black Eye",
+		"unsupported_devices": ["maguro", "grouper"],
+		"changes": [
+			"Back gesture is working again",
+			"Various fixes for the first use application",
+			"Virtual keyboard is now usable in first use",
+			"Fixed non-ASCII characters being mangled in Enyo 1 apps"
+		]
+	}, {
+		"version": 29,
+		"release_name": "",
+		"unsupported_devices": ["maguro", "grouper"],
+		"changes": [
+			"Upgraded Yocto to Dizzy release",
+			"Upgrade to beta release of qt 5.4",
+			"Upgraded QtWebKit",
+			"Mobile data connectivity is working again for N4 and TP4G with Ericsson f5521GW and Sierra MC77x0 (no UI implementation yet)",
+			"System menu is back",
+			"Various UI and app changes",
+			"Various fixes for the first use application and Language/Region selection added",
+			"TP 4G supported now",
+			"PDF App: Using media indexer now",
+			"Browser: Now saves icons for bookmarks and launcher shortcut"
+		]
+	}, {
+		"version": 30,
+		"release_name": "Black Tie",
+		"unsupported_devices": ["maguro", "grouper"],
+		"changes": [
+			"Added high resolution graphics for system menu",
+			"Fixed button width bug in First Use application"
+		]
+	}, {
+		"version": 31,
+		"release_name": "Breve",
+		"unsupported_devices": ["maguro", "grouper"],
+		"changes": [
+			"Initial support for IM and SMS messaging",
+			"Mobile data usage is now functional but needs an unlocked SIM card and be manually enabled through the settings app",
+			"Extended dashboard support",
+			"Location service with WiFi based position source only (using Mozilla's location service; see https://location.services.mozilla.com/)",
+			"Charger status on Nexus 4 is now correctly detected",
+			"Improved image quality in some apps and the card shell",
+			"Screen recording support (see https://github.com/webOS-ports/luna-next/pull/93 for details)",
+			"Backend support for MMS messages, not integrated with LuneOS services",
+			"Several meta data cleanups"
+		]
+	}, {
+		"version": 32,
+		"release_name": "Americano",
+		"unsupported_devices": ["maguro", "grouper"],
+		"changes": [
+			"Split meta-webos-ports layer to meta-luneos and meta-luneui",
+			"Several fixes and changes to our way of handling window management",
+			"Add spash for windows not loaded yet",
+			"Several icons are available in higher quality now and got resized to hit the screen size",
+			"Carrier operator name is now shown in the status bar",
+			"Splash screen is now handled by the compositor",
+			"Window management was reworked to make sure windows are destroyed at the right time",
+			"Showing a window is now bound to stageReady state again",
+			"New navigator.InAppBrowser API to open in application browser windows for authentication purposes",
+			"Privileged applications can now set the allowCrossDomain field in appinfo.json to allow cross domain access",
+			"Added functionality to add and edit contact",
+			"Added subscription to WiFi status so the system menu will be updated whenever the connection status changes",
+			"Prevent applications from being reloaded when they don't require internet connectivity",
+			"Fix applications not getting visible because stageReady timer was never fired",
+			"Update most apps to latest stable Enyo 2.5.1.1",
+			"Various improvements and bug fixes to messaging services",
+			"Mark us as being on puck (touchstone) when any charger is connected to get dockmode visible",
+			"Only adjust the focussed window for a visible keyboard",
+			"Multi window support for Browser application",
+			"Conctact picker for Messaging application",
+			"Dock mode implementation with Clocks only (Exhibition Mode will follow)",
+			"Save new contacts in Contacts application but only locally",
+			"Switched to new InAppBrowser for Google OAuth account validator",
+			"Various improvements for the C+Dav Synergy connector",
+			"SMS messages can now be sent to multiple recipients",
+			"Rework webview creation to render launcher always correctly",
+			"Fixed kernel crash for Touchpad when accessing specific sites from the browser"
+		]
+	}, {
+		"version": 33,
+		"release_name": "Aulait",
+		"unsupported_devices": ["maguro", "grouper"],
+		"changes": [
+			"Added contact-lib for common functionality when working with contacts in LuneOS",
+			"Added initial support for sensor mananagement",
+			"QML Apps: Switch to Lune.Service module for LunaService component",
+			"Added initial support for LED",
+			"Added initial support for Bluetooth on Nexus 4 (back-end only for now)",
+			"Calculator app: Minor improvements",
+			"File Manager: Update to Enyo 2.5.1.1",
+			"Ported voicecall from Nemo to use in LuneOS",
+			"Cleaned up webos-lib to remove duplication with enyo-webos",
+			"Fix media indexer to store file name without extension",
+			"Add alert service method to display manager",
+			"Added telephony-lib for shared telephony functionality",
+			"Update C+Dav to 0.3.25",
+			"Improved audio service",
+			"Calendar app: Enyo 2 version has had some work, but not no back-end implementation yet",
+			"Add support for phone app launching from first use (support for PIN window)",
+			"Phone app: Work ongoing for making initial audio call support work",
+			"luna-systemui: Fix restart options, charging status and battery notification handling",
+			"FirstUse: Improved timezone layout and ability to show network passphrase",
+			"Fixed orientation of keyboard window mask",
+			"Add support for QT Quick Controls for QML applications",
+			"Added luneos-components to support styling of QML components being used in apps",
+			"Contacts app: Added support for contact editing & updating associated contacts",
+			"Messaging app: Various minor fixes",
+			"Testr: Added new icon",
+			"webos-telephonyd: Fixed compiler warnings & cleaned up WAN enabling code",
+			"Settings app: Fixed the toggle handling for Telephony",
+			"Lune-next: Added proper handling for orientation (no full orientation support available yet)",
+			"Luna-Next Cardshell: Added support for PIN windows, ability to exit DockMode with gesture bar, layout improvement to system menu and status bar, fixed icon scaling"
+		]
+	}, {
+		"version": 34,
+		"release_name": "Bombon",
+		"unsupported_devices": ["maguro"],
+		"changes": [
+			"Luna-sysservice: Reduced a large number of error messages in logs",
+			"Preware: Minor UI tweaks to Settings, Feeds and application dialogs",
+			"Settings: Add support for PIN & Password screen lock",
+			"Luna-sysmgr-common: Reduced a large number of error messages in logs",
+			"Luna-sysmgr-common: Added initial support for LEDs",
+			"C+DAV: Updated to 0.3.29, fixing broken Google sync & various other minor fixes",
+			"Messaging: Various minor UI fixes",
+			"Messaging: Rework of chatthreader and allow sending messages to non-contacts",
+			"Luna-next: Added initial support for LEDs",
+			"Testr: Added tests for HTML5 Geolocation API, Responsive images (using srcset, SVG and -webkit-image-set)",
+			"Luna-next-cardshell: Added UI rotation support & rotation lock",
+			"Luna-next-cardshell: Added tabbed launcher, including the possibility to drag icons to other tabs. Various options for tab-settings available via Tweaks (including number of tabs, arrows etc). Layout can look like legacy webOS (2.x and/or 3.x)",
+			"Luna-next-cardshell: Various UI tweaks, mainly related to the lockscreen and it's size",
+			"Webos-keyboard: Fixes to make it work correctly with UI rotation",
+			"Grouper (Nexus 7 2012 WiFi version) is working again!",
+			"Reboot and shutdown are working again"
+		]
+	}, {
+		"version": 35,
+		"release_name": "Cubano",
+		"unsupported_devices": ["maguro"],
+		"changes": [
+			"webos-keyboard: Large rework to have separate layouts for phones & tablets.",
+			"webos-keyboard: Brought back different keyboard sizes, number row and trackball for tablets.",
+			"webos-keyboard: Removed all Ubuntu references and cleaned up unneeded files.",
+			"webos-keyboard: Created Qt Creator test framework to be able to more easily develop on desktop.",
+			"webos-keyboard: Made keyboard items more flexible by using Units.gu instead of pixel values.",
+			"Settings: Add search preferences.",
+			"luna-next: Fix screen recorder state",
+			"Messaging: Possibility to delete individual messages via context menu.",
+			"Testr: Add dashboard tests.",
+			"qtwayland: Disable mouse grabber as it prevents compositor items from getting press event notifications.",
+			"FirstUse: Fixed font display bug on emulator.",
+			"Luna-Next-Cardshell: CardView: improved CardWindowWrapper initiation.",
+			"Update: Allow updates in testing tree."
+		]
+	}, {
+		"version": 36,
+		"release_name": "Crema",
+		"unsupported_devices": ["maguro"],
+		"changes": [
+			"Browser: Various bugfixes and support for various dialogs, alerts and popups.",
+			"Calculator: Various minor improvements.",
+			"FirstUse: Rewore luna-service calls and added mock data for desktop & added filters in the lists.",
+			"Preware: A number of minor bugfixes.",
+			"Settings: Added proper handling of Audio settings.",
+			"Luna-Next-Cardshell: Fixed various minor bugs.",
+			"Photos & Videos: Initial app mock.",
+			"PDF: Updated to pdf.js 1.1.215 pre-release.",
+			"Testr: Fix bugs in luna-service calls.",
+			"Tweaks: Fix some cosmetics in banner messages.",
+			"utilities: Enable bluetooth on Touchpad.",
+			"webos-keyboard: Added many additional languages and various bugfixes.",
+			"Audio-service: Fix volume handling.",
+			"luna-init: Enable all available keyboard languages.",
+			"luna-webappmanager: Add support of new features like popups, dialogs and alerts."
+		]
+	}, {
+		"version": 37,
+		"release_name": "Olla",
+		"unsupported_devices": ["maguro"],
+		"changes": [
+			"Browser: Various bugfixes to fix crashes, improve rendering of various pages and add a scroll indicator and use LunaWebView from luneos-components so we can share this with the Enyo webapps.",
+			"Preware: Add the PivotCE feed (disabled by default).",
+			"FirstUse: Move tests to luneos-components, so we can use the a single source for tests on desktop with QtCreator.",
+			"Virtual Keyboard: Fix minor issues with URL layout for virtual keyboard.",
+			"Luna-Next-Cardshell: Fix notification handling.",
+			"Enyo 1.0: Fix faulty spinner, now using Enyo 2.0 variant instead.",
+			"Accounts/Email: Removed the \"Find More\" option from HP since it's no longer relevant.",
+			"luna-sysmgr: Make sure that banners are dealt with properly.",
+			"luna-qml-launcher: Use the common application description from luna-sysmgr-common.",
+			"luna-sysmgr-common: Rework the parsing of application description so it's common across various components.",
+			"luna-appmanager: Use the common application description from luna-sysmgr-common.",
+			"luna-systemui: Fix charging banner behavior and make sure the sizes adopt properly to different screen sizes.",
+			"qtwayland: Fixed bug causing incorrect window destruction.",
+			"luna-next: Use window properties more consistently.",
+			"luna-webappmanager: Use LunaWebView from luneos-components",
+			"luneos-components: Fixed missing image for buttons, fixed ItemSelector for browser & apps, add LunaWebView for sharing the WebView between Browser and Enyo apps. Added test import stubs for use on desktop with QtCreator. Added more flexible approach for website/app database sizes.",
+			"luna-init: Fixed issues with incorrect timezones and timezone descriptions"
+		]
+	}, {
+		"version": 38,
+		"release_name": "Latte",
+		"unsupported_devices": ["maguro"],
+		"changes": [
+			"Browser: Switched to QtWebEngine instead of QtWebKit.",
+			"C+DAV: Upgraded to version 0.3.34.",
+			"Testr: Added support for HTML5 banners/notification (not yet supported by our version of Qt though).",
+			"Yocto/OpenEmbedded: Switch from Dizzy to Fido Release (Yocto 1.8)",
+			"Qt5: Upgrade from Qt 5.4.2 to 5.5",
+			"luna-sysmgr: Fixed bug that allowed bypassing PIN/password by connecting USB",
+			"webos-keyboard: Made it compatible with Qt 5.5",
+			"Settings: Cleaned up timezone handling",
+			"luna-next-cardshell: Allow removal of apps from launcher",
+			"qt5-qpa-hwcomposer-plugin: Made it compatible with Qt 5.5",
+			"qtwayland: Made it compatible with Qt 5.5",
+			"luna-next: Made it compatible with Qt 5.5"
+		]
+	}, {
+		"version": 39,
+		"release_name": "Marocchino",
+		"unsupported_devices": [],
+		"changes": [
+			"Migrated rendering of Enyo 1/2 apps from QtWebKit to QtWebEngine.",
+			"Qt5: Upgrade from Qt 5.5 to 5.5.1.",
+			"QtLocation plugin support so we can use HTML 5 Geolocation.",
+			"Support Maguro (Galaxy Nexus GSM) again.",
+			"Fixed audio for Mako (Nexus 4).",
+			"Testr: Added tests for responsive images.",
+			"Browser: Migrated BrowserUtils to QtWebEngine as well.",
+			"FirstUse: Added support for enabling 3rd party Preware (LuneOS App Catalog) feeds to FirstUse.",
+			"FirstUse: Switch to use luneos-components and use QtWebEngine instead of QtWebKit.",
+			"Phone: Migrated to use luneos-components.",
+			"Tweaks: Fixed broken banner notifications.",
+			"Calculator: New rotatable layout, that makes full use of QtWebEngine features.",
+			"Luna-next-cardshell: Made time display in correct format (12/24 hrs), added optional system menu items for devices without hardware power/volume buttons (RaspBerry Pi 2).",
+			"Luna-next-cardshell: Hide notifications when pressing the gesture area.",
+			"Luna-next-cardshell: Work on Bluetooth submenu of System Menu.",
+			"Clock: Fix sloppy bugs in code that caused problems with alarms.",
+			"Accounts: Fix references to files that are not available.",
+			"Contacts: Fix processLaunchParam for Enyo 2.5.1 and webOSjs 1.0.0.",
+			"luna-webappmanager: Migrated Enyo 1/2 apps to QtWebEngine. Still quite fresh, so looking for feedback on things that don't work.",
+			"luna-appmanager: Improved handling of a crash in luna-webappmanager so that Power menu and other apps will keep working.",
+			"luna-init: Added a default keyboard size.",
+			"luneos-components: Fix fonts on desktop.",
+			"luneos-components: Add stub component for BT dbus module.",
+			"luna-qml-launcher: Tweaked behavior for QML apps using QtWebEngine.",
+			"webos-keyboard: Fixed erratic/non working extended keys on ... keys.",
+			"downloadmanager: Initial work on a download manager for browser and other system bits.",
+			"luna-service2: Switched from QtWebProcess to QtWebEngineProcess.",
+			"luna-sysservice: Fixed error messages due to JSON versions.",
+			"luna-sysmgr: Standardization of available fields in device specific .conf file.",
+			"luna-sysmgr: Made sure to remove com.palm.app apps and replace them with org.webosports.app equivalents where available.",
+			"qtwebengine-chromium: Migration webOS/LuneOS specifics from QtWebKit to qtwebengine-chromium.",
+			"qtwebengine: Migration webOS/LuneOS specifics from QtWebKit to qtwebengine-chromium.",
+			"luna-next: Fixed non-working back gesture in Enyo 1 apps.",
+			"luna-next: Fixed Units and Settings singletons.",
+			"webos-systemd-services: Correct the ls-hubd_public.service description.",
+			"webos-telephonyd: Spelling fixes",
+			"luna-qml-launcher: Add qtpositioning plugin"
+		]
+	}, {
+		"version": 40,
+		"release_name": "Medici",
+		"unsupported_devices": [],
+		"changes": [
+			"Enyo 1.0: Fix high CPU load problem after QtWebEngine migration.",
+			"Luna-Next-Cardshell: Fixed high CPU issue for performance of DockMode Clocks.",
+			"QtWebEngine: Enabled Alsa & PulseAudio.",
+			"Testr: Fix test cases for DashBoards.",
+			"luna-webappmanager: Implement missing bits for notifications (banners/dashboards) to be compatible with legacy API.",
+			"luna-webappmanager: Launch Just Type at startup to reduce time when calling it and improve CPU usage.",
+			"Browser: Migrated BrowserUtils to QtWebEngine as well.",
+			"Clock: Fixed various bits so now it will actually work.",
+			"luna-next: Implement missing bits for notifications (banners/dashboards) to be compatible with legacy API.",
+			"luna-next: Make Tap Ripple/Reticle behave better on various devices.",
+			"luna-next: Add additional keys to emulator F6-F9 to rotate screen on emulator.",
+			"luna-next: Add screen edge flick detection (up and down only for now).",
+			"luneos-components: Add stub for DeviceKeyHandler.",
+			"luneos-components: Add support for newly added parameters for notifications to the tests.",
+			"luneos-components: Add a stub for GestureHandler.",
+			"Messaging: Add relaunch handling to open incoming message/thread.",
+			"Messaging: Make sure the new SMS notification is compatible with API changes.",
+			"Update: Make sure the new update notification is compatible with API changes.",
+			"luna-sysmgr: Changed the GridUnit value for emulator to 10 instead of 8 pixels. This because Tenderloin (aka Touchpad) uses uses 10 and they share the same resolution.",
+			"Browser: Bring back ContextMenu.",
+			"FirstUse: Initial support for IEEE 802.1x (Enterprise Wifi).",
+			"webos-connman-adapter: Moved to our own fork instead of using upstream Open webOS.",
+			"webos-connman-adapter: Migrated patches to commits.",
+			"webos-connman-adapter: Added initial support for IEEE 802.1x (Enterprise WifI).",
+			"Add mp3 codec playback support"
+		]
+	}, {
+		"version": 41,
+		"release_name": "Miel",
+		"unsupported_devices": [],
+		"changes": [
+			"activitymanager: Allow 1 minute intervals to solve some issues in logs with db8, enable modem reading again.",
+			"sleepd: Add alarms.xml file.",
+			"luna-universalsearchmanager: Fix various memory leaks, make org.webosports.* also privileged like com.palm.* so they can have Just Type actions.",
+			"luna-next-carshell: Fix removal of notification.",
+			"Messaging (org.webosports.app.messaging): Handle Just Type launch params (you can now create a new message from Just Type).",
+			"Testr (org.webosports.app.testr): Add tests for vibration API.",
+			"Maps (org.webosports.app.maps): Fix pinch to zoom & panning during pinch-to-zoom (fixes bugs 957 & 1043).",
+			"luna-appmanager: Add org.webosports.* apps as trusted apps.",
+			"luna-init: Add handlers for various filetypes, cleanup no longer used types and fix syntax errors.",
+			"PDF (org.webosports.app.pdf): Update PDF.js to v1.3.90, add sample files, fix syntax errors, added document rotation and previous/next page buttons.",
+			"Media Indexer: Setup permissions for legacy apps, so when they're sideloaded they can work. Fixed com.palm.media.audio.file:1 to be compatible with legacy (still missing thumbnail images). Fixed com.palm.media.video.file:1, com.palm.media.image.file:1 and com.palm.media.misc.file:1 to be compatible with legacy.",
+			"Update (org.webosports.update): Add new update icon.",
+			"FileManager (org.webosports.app.filemanager): Update to Enyo 2.5.1.1 and latest libs, display filesize in kb, mb, gb etc where needed. Fixed app name from bootplate to it's proper name.",
+			"Preware: (org.webosinternals.preware): Cleanup of old bits (opkg replaced by ipkg) and preware.org replaced with preware.net.",
+			"Phone: (org.webosports.app.phone): Major code cleanup, layout tuning & making the app actually work. Added call history, contact lookup & favorites.",
+			"Settings: (org.webosports.app.settings): Add category icons (fixes bug 1053), added initial Bluetooth support, use default FilePicker for sounds, add initial support for hidden networks.",
+			"luna-webappmanager: Add support for hidden wifi networks, added resetDeviceList function for Bluetooth.",
+			"webos-keyboard: Add dismiss & underscore key to phone vkb.",
+			"C+DAV (org.webosports.service.contacts.carddav): Add access to org.webosports.app.contacts as well just like com.palm.app.contacts.",
+			"luna-sysmgr-common: Fix lifecycle of json string.",
+			"luna-sysservice: Fix lifecycle of json string, make subscribe optional for getPreferences, use json-c instead of cjson.",
+			"app-services: Proper access to org.webosports.app.contacts, fixed globalization issue.",
+			"luna-systemui: Drop getMigrationStatus since it's not part of Open webOS.",
+			"LuneOS Components: Add ClippedImage component, Sync ApplicationWindow.WindowType with the ones from LunaNext, Db8Model: add more testing capabilities, fix LS2 registration, improve DB8 stub, use B2G libphonenumber.js."
+		]
+	}, {
+		"version": 42,
+		"release_name": "Milk",
+		"unsupported_devices": [],
+		"changes": [
+			"luna-systemui: Disabled appInstallStatus for now untill we have a working Download Manager, disabled call to com.palm.storage since it's not available.",
+			"luna-sysmgr-common: Disable RadioType check, return carrierAvailable as true instead of relying on m_radioType.",
+			"luna-sysgr: Disabled call to postNovacomStatus, enabled ALS for various targets.",
+			"luna-webappmanager: Don't stop unit if luna-next exits on its own.",
+			"org.webosports.app.photos: Added Apache 2.0 license.",
+			"luna-appmanager: Disable call to create FAKEFS since we don't have the JSON file for it anyway.",
+			"org.webosports.app.testr: Add Apache 2.0 license.",
+			"luna-init: Change wallpaper location to /media/internal/.",
+			"org.webosports.app.browser: Moved Tweaks Support to LuneOS Components & add serviceName in the calls to Tweaks.",
+			"luna-next-cardshell: Add mask for lockscreen background, Moved Tweaks Support to LuneOS Components, Add mipmap for images to improve quality, Fix App Menu display conditions, Add PadLock at proper position & device type dependant, Added lockscreen gradient, Provide visual feedback on screenshot (right swipe), Centralize Tweaks declaration in AppTweaks singleton, WindowManager: Introduce DockMode & LockScreen mode, Sanitized z-indexes & made visual feedback for screenshots working.",
+			"luneos-components: Add Tweaks.qml & stub values for Tweaks, Add Geocoding support (location lookup based on phone number), Stub compositor: fixed warning.",
+			"loadable-frameworks: Add support for geocoding.",
+			"org.webosports.app.settings: Bluetooth improvements for debugging, WiFi code cleanup & support for connecting to hidden networks.",
+			"qtwayland: Add password delay mask: show input in password fields for 1s before hiding it.",
+			"org.webosports.app.phone: Rework of call history page & add geocoding support, Added Tweak for dialpad vibration feedback, Use valid phone numbers as fake test data, Improved incoming & active call pages, Added basic USSD support.",
+			"com.palm.location/org.webosports.location: Upgraded from GeoClue 2.2 to 2.4.1 and using Google Location Services instead of Mozilla as default"
+		]
+	}, {
+		"version": 43,
+		"release_name": "Mocha",
+		"unsupported_devices": [],
+		"changes": [
+			"Upgrade from Yocto 1.8 Fido through Yocto 2.0 Jethro to Yocto 2.1 Krogoth.",
+			"luna-sysmgr: Add .conf files for Raspberry Pi 2/3.",
+			"nyx-modules: Added config for Raspberry Pi 2/3.",
+			"qt5-qpa-hwcomposer-plugin: Updated to most recent upstream version.",
+			"jenkins-jobs: Add supports for Raspberry Pi 2/3.",
+			"android-property-service: Fix crash in getAllProperties method.",
+			"webos-keyboard: Make sure settings are saved when they are changed in the virtual keyboard.",
+			"luna-webappmanager: Various fixes for bluetooth & wifi.",
+			"luna-next-cardshell: Fix behavior of App Menu and it's opening by gesture.",
+			"pmcertificatemgr: Big rework & cleanup of Open webOS code (not yet in nightlies due to other components that need updating).",
+			"qtwayland: Add a fix to make it work with Qt 5.6.",
+			"mediaindexer: Populate com.palm.media.audio.album, com.palm.media.audio.genre, com.palm.media.audio.artist & fix com.palm.media.audio.file.",
+			"qtwebengine: Update to 5.6.0.",
+			"qtwebengine-chromium: Update to Chromium 45-based for Qt 5.6.0.",
+			"meta-rpi-luneos: Added layer for Raspberry Pi 2/3 to our repo.",
+			"meta-raspberrypi: Added layer for Raspberry Pi 2/3 to our repo.",
+			"wayland: Update to 1.9 from Yocto 2.1 in order to solve Qt 5.6.0 crashes.",
+			"hunspell-dictionaries: Added dictionaries for various languages, to use with spellchecking & predictive text (Needs to be enabled in Settings and it's still work in progress).",
+			"hunspell: Update to 1.3.4.",
+			"presage: Update to 0.9.1.",
+			"maliit: Update to more recent upstream.",
+			"bluez4: Add dbus policy so that Bluetooth headset can connect and route audio.",
+			"systemd: Disabled fdinfo stat to bypass Mako bootloop.",
+			"pulseaudio-modules-droid: Make it work with PulseAudio 8.",
+			"mmsd: Update mssd.service with correct location.",
+			"pidgin: Update to 2.10.12.",
+			"qtwebengine: Update configuration so audio works correctly with QT 5.6.",
+			"keymanager: Disable node-sqlite3 database for now pending rework of various NodeJS bits.",
+			"C+DAV: Update for compatibility with NodeJS 4.4.x.",
+			"Keymanager: Update for compatibility with NodeJS 4.4.x.",
+			"connman: Use recipe from openembedded core directly.",
+			"qtwebengine: Fix crash on html5test.com and apps using HTML5 databases on ARM devices.",
+			"FingerTerm: Worked together with people from Mer to have customizations for LuneOS build in. It now uses Prelude as font :)."
+		]
+	}, {
+		"version": 44,
+		"release_name": "Tobio",
+		"unsupported_devices": [],
+		"changes": [
+			"luna-webappmanager: Fix initial scaling and viewport for apps.",
+			"Tweaks: Cleanup of app code and drop no longer used Mojo version.",
+			"org.webosports.update: Drop unneeded systemd file. Same file was already provided by webos-system-update.",
+			"org.webosports.app.phone: TelephonyManager: fix debug log.",
+			"qtwebengine-chromium: Update to latest Chromium 45 based from upstream (13 bugfixes/backports).",
+			"qtwebengine: Update to latest 5.6.1 from upstream.",
+			"nodejs-module-webos-pmlog: Switched to own repo instead of upstream.",
+			"nodejs-module-webos-dynaload: Switched to own repo instead of upstream & fixed NodeJS 4.x/6.x compatibility.",
+			"nodejs-module-webos-sysbus: Switched to own repo instead of upstream & fixed NodeJS 4.x/6.x compatibility.",
+			"mojoloader: Switched to own repo instead of upstream.",
+			"mojoservicelauncher: Switched to own repo instead of upstream.",
+			"foundation-frameworks: Switched to own repo instead of upstream & fixed NodeJS 4.x/6.x compatibility.",
+			"app-services: Add missing mediathumbnail filecache_type.",
+			"imlibpurpleservice: Various fixes to make it work.",
+			"utilities: Fix includes for bluetooth in build for Touchpad.",
+			"luna-next-cardshell: Notifications, don't resize client window too soon.",
+			"luna-next-cardshell: Fix launchParams to be empty to maintain legacy compatibility.",
+			"luna-service2: Update to latest from upstream.",
+			"org.webosports.app.settings: Fix allow roaming toggle.",
+			"org.webosports.app.settings: Fix the handling of launch params.",
+			"core-apps: Add access for org.webosports.app.memos to com.palm.note.",
+			"webos-telephonyd: Make dial method compatible with legacy & improve errorCode reporting.",
+			"org.webosports.app.tasks: Add initial db8 kind & permissions skeleton for Synergy for tasks.",
+			"mediaindexer: Fix issue with image albums & memory leaks.",
+			"luna-appmanager: Fix various warnings that lead to many crashes at boottime.",
+			"org.webosports.app.contacts: Switched to Enyo 2.7.",
+			"org.webosports.app.contacts: In contact details pane, tapping on a phone number, email, IM, URL, address, birthday or anniversary attempts to open the apropriate app. Tapping on a relation searches for that name in Contacts.",
+			"messaging-accounts: Added initial work for IM templates.",
+			"luneos-default-wallpapers: Fix QA issues during build.",
+			"connman-conf: install wired-setup to datadir.",
+			"hunspell: move ispellaff2myspell to separate package.",
+			"presage: add dependency on ncurses.",
+			"android-property-service: Add DEPENDS on luna-prefs.",
+			"org.webosports.service.update: Add RDEPENDS on bash.",
+			"core-apps: Add RDEPENDS on bash.",
+			"loadable-frameworks: Add RDEPENDS on bash.",
+			"lxc: Add RDEPENDS on bash.",
+			"packagegroup-luneos-development: Bring valgrind back.",
+			"presage: Fix QA issues.",
+			"luneos.inc: Add Ubuntu 15.10 and 16.04 to sanity tested distros.",
+			"geoclue: Add avahi to DEPENDS.",
+			"sensorfw: Add bash to RDEPENDS.",
+			"ofono: Add patches to revert Python 3 changes.",
+			"presage: Implement version independent approach to Python.",
+			"https-everywhere: Add initial recipe for providing the https rulesets.",
+			"pidgin: simplify bbappend.",
+			"qtscenegraph-adaptations: Drop patches & follow upstream directly.",
+			"lxc: Upgrade to 2.0.",
+			"pulseaudio-modules-droid: Fix audio on Nexus 4 (Mako)."
+		]
+	}, {
+		"version": 45,
+		"release_name": "Touba",
+		"unsupported_devices": [],
+		"changes": [
+			"Calculator (org.webosports.app.calculator): Fixed PNG images with incorrect sRGB profile.",
+			"Maps (org.webosports.app.maps): Fixed PNG images with incorrect sRGB profile.",
+			"Browser (org.webosports.app.browser): Fixed PNG images with incorrect sRGB profile, make fullscreen mode behave more properly.",
+			"luna-applauncher (Just Type): Fixed PNG images with incorrect sRGB profile.",
+			"luna-systemui (Just Type): Fixed PNG images with incorrect sRGB profile.",
+			"Preware: Nudge users to enter https feeds instead of http, fixed PNG images with incorrect sRGB profile.",
+			"Tweaks: Fixed PNG images with incorrect sRGB profile.",
+			"core-apps: Fixed PNG images with incorrect sRGB profile.",
+			"Settings: Fixed PNG images with incorrect sRGB profile.",
+			"Flashlight (org.webosports.app.flashlight): Initial work on an app to play with the leds (not included in images yet).",
+			"Testr (org.webosports.app.testr): Added additional banner sound & vibration scenarios.",
+			"luna-universalsearchmgr: Fix build with libxml-2.9.4.",
+			"Messaging: When launched handle an URL, parse and use URL, add missind db kinds & permissions for com.palm.app.messagingprefs, com.palm.carrierdb.settings.current, fixed permissions for com.palm.chatthread and com.palm.message, fixed PNG images with incorrect sRGB profile.",
+			"Contacts (org.webosports.app.contacts): Tapping an IM addr in details sends the IM type, URL and Note editing fields have correct width, Fixed PNG images with incorrect sRGB profile.",
+			"Phone: Add ringtone management for incoming calls.",
+			"Fingerterm: Use monospace as font to fix cursor issues.",
+			"Browser: Make fullscreen mode work more properly (hide space normally used by navigationbar).",
+			"Luna-Next-Cardshell: Fix behavior of rotationLock & muteSound, add management for popup overlay type, update Keys.forwardTo on cardRemove, fixed playback of banner sounds, renamed ringtone.wav references to ringtone.mp3, scan assets folder for sounds (used by Enyo 2 apps), launcher doesn't take action on tap gesture, fixed PNG images with incorrect sRGB profile, handle icons, sounds & vibration for banners, dashboards and notifications properly.",
+			"qtwayland: qwaylandwindow: fix inputDevice for setPopup.",
+			"imlibpurpleservice: Fixed db kinds & permissions for imbuddystatus, added permissions for both org.webosports.* and com.palm.*, fixed various JSON syntax errors, moved LS2 role file to correct location, made getServiceNameFromCapabilityId generic and removed conversion to and from Mojo-typed usernames.",
+			"imaccountvalidator: Fix a lot of small things to make things work.",
+			"audio-service: Fixed type to make sure audio routing works correctly in phone app",
+			"messaging-accounts: Updated & fixed IM templates so they work properly.",
+			"luna-webappmanager: Move handling of icon paths to luna-next-cardshell.",
+			"Enyo-1.0: Fixed PNG images with incorrect sRGB profile.",
+			"webos-keyboard: Fixed PNG images with incorrect sRGB profile.",
+			"luna-next: Add FileUtils plugin to allow checking for file existence in QML, CompositorWindow: add isPopup property to test the Qt window type, Compositor: set the WindowType to Overlay for a popup window, add support for various bits required for proper sound playback through Luna-Next-Cardshell.",
+			"app-services: Drop use of existsSync since it's deprecated in NodeJS 1.x +, add directory to solve error for contact_linker_plugins.",
+			"luna-sysmgr-common: Cleanup of whitespace mess.",
+			"luna-sysmgr: Fixed PNG images with incorrect sRGB profile.",
+			"nyx-modules: Implement MassStorageMode module",
+			"mtp-server: Adjust systemd service configuration for com.palm.storage, stop service when session is closed. Update to newer mtp-server from Ubuntu upstream to make it work with Windows clients and fix a large number of bugs.",
+			"storaged: Make it work with nyx, added Android udev rules, replaced cjson with json-c, added systemd service configuration & intergrated it into image.",
+			"pidgin-sipe: Add SIPE IM plugin for IM",
+			"whatsapp-purple: Add WhatsApp plugin for IM",
+			"purple-skypeweb: Add SkypeWeb plugin for IM",
+			"pidgin: Fix issues with ICQ password > 8 chars, drop discontinued MSN support & include Yahoo plugin.",
+			"binutils: Fix issue with IPKG's containing empty items.",
+			"qtwebengine-chromium: Various upstream fixes, made Prelude the default font instead of monospace.",
+			"Preware 2: Use secure (https) feeds where available.",
+			"org.webosports.service.devmode: Fixed deprecated fs.existsSync calls that aren't compatible with NodeJS 4.x.",
+			"mojoservicelauncher: Fixed deprecated fs.existsSync calls that aren't compatible with NodeJS 4.x.",
+			"mojoloader: Fixed deprecated fs.existsSync calls that aren't compatible with NodeJS 4.x.",
+			"org.webosports.service.downloadmgr: Fixed deprecated fs.exists and fs.existsSync calls that aren't compatible with NodeJS 4.x.",
+			"keymanager: Fixed deprecated fs.exists calls that aren't compatible with NodeJS 4.x.",
+			"activitymanager: ConnectionManagerProxy: merge the \"wire\" activity status into \"wifi\".",
+			"imlibpurpleservice: Made getServiceNameFromCapabilityId generic and removed conversion to and from Mojo-typed usernames.",
+			"webos-connman-adapter: Drop patches that are not needed anymore from repo. Improved the management of wired interfaces.",
+			"qtwebengine-chromium: Update to latest Chromium 45 from upstream.",
+			"qtwebengine: Update to latest from QT 5.6 (August 5, 2016)."
+		]
+	}, {
+		"version": 46,
+		"release_name": "Zorro",
+		"unsupported_devices": [],
+		"changes": [
+			"Testr (org.webosports.app.testr): Differentiate between sounds for different tests.",
+			"Phone (org.webosports.app.phone): Rename ApplicationWindow to LuneOSWindow, Move the Ring management to a dedicated service, PhoneWindow: hide the IncomingCallAlert window when the call is ended, RingManager: little cleanup, Tests: move Meego.QOfono and org.nemomobile.voicecall to luneos-components, RingManager: get ringtone from preferences.",
+			"C+DAV (org.webosports.service.contacts.carddav): Add access for all com.palm.* apps (fixes issues with adding a C+Dav account from Calendar app).",
+			"Browser (org.webosports.app.browser): Add proper fullscreen mode call to cardshell, Allow \"about:\"-urls, Rename ApplicationWindow to LuneOSWindow, Refactor code, Remove some useless top-level properties, Reorganize panels, Refactor SearchSuggestions related code, HistoryPanel: switch to Db8Model, AppTweaks: fix invalid tweaks key, Split util.js and create dedicate models for history & bookmarks, Move subcomponents in their own directory, There is no \"states\" on a Quick Window, Remaining fixes after refactoring, Fix suggestion list overlapping action tooltip, Fix size of cut/copy/paste tooltip, Also show search suggestions if default search is set, Fix fullscreen behavior after rework, NavigationBar: use onClicked instead of onPressed/onReleased, Use WebEngineView's contextual menu, BrowserWebView: rely on WebEngine to open new cards, Cleanup unneeded js files, fixed behavior of progress bar after rework.",
+			"Clock (core-apps, com.palm.app.clock): Minor code cleanup.",
+			"FirstUse (org.webosports.app.firstuse): Show WiFiPage only on device with WiFi, Fix connecting to open networks from FirstUse, fix incorrect timezone selection & code cleanup, added time format selection & minor layout tweaks, fix handling for DST.",
+			"Messaging (org.webosports.app.messaging): Add soundClass notifications for the notification so we have sound playback on incoming messages.",
+			"qtwebengine-chromium: Update to latest from upstream (30-Aug-2016).",
+			"luna-qml-launcher: Add $QT_IMPORT_QML/LunaWebEngineViewStyle as an import path to allow overloading of the QML definition of the UIDelegates of the WebEngineView instances.",
+			"luneos-components: Use new luna://org.webosports.luna/enableFullScreenMode service, Add stub call for device info, Fix typo in battery_challenge, Rename ApplicationWindow to LuneOSWindow, Small fixes to remove warnings, Tests: move Meego.QOfono and org.nemomobile.voicecall to luneos-components, Tests: add hardcoded com.palm.db/find result for com.palm.browserpreferences:1, Db8Model: cancel running LS2 call upon destruction, QtWebEngine: add our overload of the WebEngineView UI Delegates, Components: remove useless ContextMenuExtras, Add proper results for com.palm.browserpreferences & region. Additional preference call stub results & timezone table update.",
+			"qtwebengine: Update to latest from upstream Qt 5.6 (03-Sep-2016), fix crashes on new windows, added custom styled context menu.",
+			"luna-next: Add fileUtils to check for existence of files from QML.",
+			"FreeImage: Fix compatibility with GCC 6.0.",
+			"luna-webappmanager: Implement PalmSystem.enableFullScreenMode.",
+			"luna-sysservice: Fix typo in battery_challenge",
+			"imlibpurpleservice: Make getServiceNameFromCapabilityId generic, LibPurpleAdapter: remove conversions to and from Mojo-typed usernames, Add com.palm.config.libpurple db kind & permissions, Remove all hard-coded SERVICENAME_xxx occurrences, Add config management and refactor code, IMServiceHandler: merge implementations for onCreate and onDelete, Fix purple's config dbkind",
+			"messaging-accounts: Update templates to have onCreate and onDelete, cleanup of duplicate suffixes.",
+			"luna-next-cardshell: Add a LS2 service enableFullScreenMode to let apps require fullscreen mode, CardView: fix fullscreen mode for apps, Add body to the notifications, close notifications after launching app, added clock to lockscreen, fixed banners showing incorrect : at the end.",
+			"nyx-lib: Added systemd target file.",
+			"nyx-modules: Wait for touchscreen device before reaching nyx.target.",
+			"webos-systemd-services: LunaSysMgr: wait for nyx.target."
+		]
+	}, {
+		"version": 47,
+		"release_name": "Ca",
+		"unsupported_devices": [],
+		"changes": [
+			"Browser (org.webosports.app.browser): Move browser parts used elsewhere as well to LuneOS Components, update Top Level Domain list, don't set the useragent in the browser itself, but through LuneOS Components instead, dropped Checkbox, reworked browser settings toggles and hooked them up, fixed spelling & fixed vkb toggle button.",
+			"FirstUse (org.webosports.app.firstuse): Fix checkbox & password character the proper way.",
+			"Maps (org.webosports.app.maps): Unify layout of toggle with QML & Enyo 1.",
+			"Messaging-Accounts: Don't show empty options in UI but maintain them in backend for compatibility.",
+			"Preware (org.webosinternals.preware): Add systemd service file.",
+			"Settings (org.webosports.app.settings): Unify layout of toggle with QML & Enyo 1.",
+			"Testr (org.webosports.app.testr): Adds test of window.webkitRequestFileSystem(), Clarifies success message for webkitRequestFilesystem() test, Changes File API test to write file, and improves error reporting, Unify layout of toggle with QML & Enyo 1, Move things to subfolders for clearer structure, File APIs: added test: delete all, File APIs: tweaked \"write file\" test, to allow for overhead.",
+			"org.webosports.app.tasks: Fix syntax error in com.palm.tasklist.",
+			"mediaindexer: com.palm.media.misc.file: Fix syntax error, mediaindexer.service: Make sure we start only after configurator.",
+			"luna-applauncher: Fix the input not working when multiple lines.",
+			"luneos-components:  Add UserAgent handling to LuneOS Components, Set httpUserAgent in the WebEngineView already, Add stub values for db/merge, UniversalSearch & Browser Prefs, Test NotificationManager: add missing iconPath property to notif object.",
+			"luna-service2: Add systemd service files.",
+			"webos-connman-adapter: Add systemd service file.",
+			"filecache: Add systemd service file.",
+			"db8: Switch to own fork, tempdb.conf: Fix syntax error, mediadb.conf: Fix syntax error, maindb.conf: Fix syntax error, Add systemd service file & script, Add com.palm.mediapermissions service as admin for maindb (applied patch directly to our fork).",
+			"powerd: Add systemd service file, replace cjson with json-c (applied patch directly to our fork).",
+			"activitymanager: Add systemd service file, Fix build with newer boost 1.58.0 (applied patch directly to our fork).",
+			"sleepd: Add systemd service file.",
+			"luna-universalsearchmgr: Added & renamed systemd service file.",
+			"luna-sysservice: Drop patch that's no longer needed, added & renamed systemd service file.",
+			"luna-next: Remove unused signal, make sure we use the new names for luna-sysmgr and luna-appmanager service files.",
+			"luna-webappmanager: Drop UserAgent bits and use the ones from LuneOS Components instead, Only set userAgent when it's provided in appinfo.json, Formatting cleanup, Fix issue with reloading the webView, Start LunaWebAppManager with --allow-file-access-from-files, Rename systemd service file.",
+			"qtwebengine-chromium: FIXUP: Improve path handling in gyp's ninja generator, [Backport] Include CoreBluetooth.h from files that need it, Detect more ARM FPU models.",
+			"configurator: Switch to own form, replace cjson with json-c (applied patch directly to our fork), Add systemd service files.",
+			"luna-sysmgr: launcher-conf.schema: Fix syntax error, Update launcher apps, Added & renamed systemd service file, Rename the luna-sysservice service file, Launcher: moves test apps to Prefs tab, and Preware to Downloads, restructure repository layout & added com.palm.contextupload db kind & permissions.",
+			"qtwebengine: Update to latest from upstream Qt 5.6 (28-Sep-2016), Implement RequestQuotePermission.",
+			"core-apps: com.palm.calendarevent: Fix syntax error, disable call to non existing com.palm.accountservices (Palm Profile service). Add high resolution launcher icons for Calendar app.",
+			"mojoloader: Disable require of deprecated sys.",
+			"luna-appmanager: Provide an errorText for non existing apps for launch & open, Run app-install even though we don't have a proper cryptofs setup, Added & renamed systemd service file, Run configurator for Activities after First Use & Local Profile creation, Pass correct parameters for clearMemoryCaches call.",
+			"webos-systemd-services: LunaSysMgr.service: Make sure we start only after configurator, moved the majority of systemd service files to their individual components.",
+			"luna-next-cardshell: Cleanup: fix some QML interpreter warnings, NotificationArea: fix notification removal, CardView: have a snappier card swiping behavior, CardView: realign the card if the height of the CardView changes, CardView: use a simple Flickable instead of a ListView for card swiping, CardView: fix swipe-down scenario, CardView: keep size bindings when initializing card delegate, added card spreading gestures.",
+			"qtquickcontrols: Drop patch for setting password character that now part of standard QT.",
+			"storaged: Add RDEPENDS on bash.",
+			"app-services: Add additional dirs to avoid configurator warnings, add additional paths to fix more warnings, add the /var/palm/data/com.palm.appInstallService/ folder. ",
+			"packagegroup-luneos-extended: Add phone infrastructure to all targets.",
+			"luneos-emulator.ovf: Configure serial ports correctly.",
+			"luna-init: Fixed various issues with region & locale files, updated default-dock-positions to use the org.webosport.* variant of the apps."
+		]
+	}]
 }
