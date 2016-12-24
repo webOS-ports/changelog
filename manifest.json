@@ -1,6 +1,6 @@
 {
 	"manifestVersion": 2,
-	"platformVersion": 47,
+	"platformVersion": 48,
 	"changeLog": [{
 		"version": 1,
 		"release_name": "",
@@ -833,6 +833,28 @@
 			"packagegroup-luneos-extended: Add phone infrastructure to all targets.",
 			"luneos-emulator.ovf: Configure serial ports correctly.",
 			"luna-init: Fixed various issues with region & locale files, updated default-dock-positions to use the org.webosport.* variant of the apps."
+		]
+	}, {
+		"version": 48,
+		"release_name": "Cappuccino",
+		"unsupported_devices": [],
+		"changes": [
+			"luna-next-cardshell: LaunchBar: Let Phone app depend on Settings.tabletUi instead, fix arrangement of icons like legaycy, CardView Correctly center the current card/group in the screen, CardView: take spread value from card group model, CardView: fix some issues when maximizing a card from a stack, CardView: Implement pinch-to-zoom on a single card, Notifications: Use the same swiping logics as for cards, LaunchBar: Dynamically populate icons & update application JSON files, LaunchBar: Have usefull apps for desktop testing, LaunchBar: Use a common ApplicationModel instance for all the launchers, CardView: avoid artefacts after card swiped out, LaunchBar.qml: Don't use asc: true since it's invalid, fix default-app-icon.png artifacts.",
+			"build: Corrected upload path for builds.",
+			"Contacts (org.webosports.app.contacts): Allow searching in Favorites, as in webOS 1.x and 2.x, cleanup of un-needed controls, width of search field is limited to about 14 characters, Tweaks visuals, increase targetWidth or search field. Added Enyo 2.5 People Pick from Messaging for future use.",
+			"FirstUse (org.webosports.app-firstuse): Various graphic improvements 2, use #4db2ff as link color.",
+			"Messaging: org.webosports.app.messaging: Fix empty PalmSystem.launchParams, Use 13 digit Javascript timestamp to be legacy compatible, Fix JSON syntax errors & add contacts mock data, ThreadView.js: Fix Uncaught TypeError, Refactors and removes unused files, in preparation for Enyo 2.7.",
+			"Preware (org.webosinternals.preware):  Refactors global functions & vars into local, removes unused code & generally cleans up.",
+			"qtwebengine-chromium: add missing include, fix detection of MSVC 2015 Express, fix accessibility crash on view destruction, when a popup is open.",
+			"webos-telephonyd: com.palm.mmsmessage:1 db kind & permissions for com.palm.& apps.",
+			"qtwebengine: Update to latest from upstream 5.6 (22-Nov-2016).",
+			"messaging-accounts: Update Yahoo template for new plugin, removed unneeded logging, removed MySpaceIM template.",
+			"jenkins-job.sh: Show number of openssl archives before and after sstate-cache-management.sh, add few more extra archs to sstate cleanup.",
+			"luna-sysmgr: Add default-dock-positions for filling QuickLaunch Bar.",
+			"luna-webappmanager: BluetoothManager: Add paringDone function.",
+			"qtsensors-sensorfw-plugin: Update to latest QT 5.6.2 code.",
+			"luneos-components: Return locale as well while subscribing, add missing apps to test data, Test apps list: fix icon paths and ids to get correct launchers.",
+			"meta-webos-ports: mojomail: drop patches and move to own fork, qt5-qpa-hwcomposer-plugin: switch to upstream and add rotation patch, sensorfw: Update to latest upstream (30-Oct-16), nemo-qml-plugin-dbus: Switch to mer git and bump SRCREV, mobile-broadband-providers-info: update to latest from upstream (02-Nov-2016), lxc: Update to 2.0.5, libhyrbis: update to latest from upstream (02-nov-16), https-everywhere: update to latest from upstream, hunspell-dictionaries: update to latest, hunspell: Update to 1.4.1, python-tz-native: Update to 2016.7, uriparser: Update to 0.8.4, Update Preware feed for Feedspider and use secure URL, purple-skypeweb: Update to latest from upstream (19-Dec-16), funyahoo-plusplus: Add recipe, More robust building & cleaner logging of enyo-dev apps, imaccountvalidator: Add new Yahoo plugin & remove old ones, imlibpurpleservice: Add new Yahoo plugin & remove old ones."
 		]
 	}]
 }
