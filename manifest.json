@@ -1,6 +1,6 @@
 {
 	"manifestVersion": 2,
-	"platformVersion": 48,
+	"platformVersion": 49,
 	"changeLog": [{
 		"version": 1,
 		"release_name": "",
@@ -855,6 +855,38 @@
 			"qtsensors-sensorfw-plugin: Update to latest QT 5.6.2 code.",
 			"luneos-components: Return locale as well while subscribing, add missing apps to test data, Test apps list: fix icon paths and ids to get correct launchers.",
 			"meta-webos-ports: mojomail: drop patches and move to own fork, qt5-qpa-hwcomposer-plugin: switch to upstream and add rotation patch, sensorfw: Update to latest upstream (30-Oct-16), nemo-qml-plugin-dbus: Switch to mer git and bump SRCREV, mobile-broadband-providers-info: update to latest from upstream (02-Nov-2016), lxc: Update to 2.0.5, libhyrbis: update to latest from upstream (02-nov-16), https-everywhere: update to latest from upstream, hunspell-dictionaries: update to latest, hunspell: Update to 1.4.1, python-tz-native: Update to 2016.7, uriparser: Update to 0.8.4, Update Preware feed for Feedspider and use secure URL, purple-skypeweb: Update to latest from upstream (19-Dec-16), funyahoo-plusplus: Add recipe, More robust building & cleaner logging of enyo-dev apps, imaccountvalidator: Add new Yahoo plugin & remove old ones, imlibpurpleservice: Add new Yahoo plugin & remove old ones."
+		]
+	}, {
+		"version": 49,
+		"release_name": "ChaiLatte",
+		"unsupported_devices": [],
+		"changes": [
+			"meta-rpi-luneos: Fix build issues.",
+			"jenkins-jobs: Add Hammerhead as target v2.3.9.",
+			"org.webosports.messaging: Conversion to Enyo 2.7, package.json: Add missing icon.png, replaced Contact Picker with Address Picker, Renamed AddrModel to MsgAddrModel, Made Message Address Search list more compact (Mojo-style), return addr picker dynamically populated in threadview, fix back gesture, unified use of guillemets.",
+			"org.webosports.app.contacts: Fixed bug where first IM address wouldn't have type, updated messaging service picker to align with supported account types, removed obsolete entries.",
+			"webos-telephonyd: telephonyservice_sms.c: Use timestamp in milliseconds for legacy compatibility.",
+			"luna-sysmgr: autoCompletion->autoCorrection.",
+			"webos-keyboard: autoCompletion->autoCorrection, fix various typos mSpellchecing -> mSpellchecking.",
+			"luna-init: autoCompletion->autoCorrection.",
+			"org.webosports.app.settings: Clarify keyword: AutoCompletion->AutoCorrection.",
+			"pulseaudio-modules-droid: fix build when using android-headers from Ubuntu.",
+			"qt5-qpa-hwcomposer-plugin: fix build for 4.4.2 with Ubuntu's android headers.",
+			"nyx-conf: add hammerhead configuration.",
+			"luneos-package: use KERNEL_IMAGETYPE for the image name.",
+			"initramfs-boot-android: improve initrd's kernel logging.",
+			"luna-sysmgr-conf: externalize machine-specific configuration files.",
+			"nyx-modules: externalize machine-specific configuration files.",
+			"luna-next-conf: add hammerhead environment file.",
+			"luna-sysmgr-conf: have better GridUnit for hammerhead.",
+			"VoiceCall: Update to latest from upstream (28-Jan-2017)",
+			"pulseaudio-modules-droid: Update to latest from upstream (28-Jan-2017)",
+			"sensorfw: Update to latest from upstream (28-Jan-2017).",
+			"mobile-broadband-provider-info: Switch to Mer variant & bump SRCREV.",
+			"qtbase_git.bbappend: Use += for PACKAGECONFIG_DISTRO.",
+			"hunspell: removed from meta-webos-ports using the one from meta-openembedded instead.",
+			"libhybris: Bump SRCREV, together with fixes for issues.",
+			"Add qtubuntu-camera as backend."
 		]
 	}]
 }
