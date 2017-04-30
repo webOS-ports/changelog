@@ -1,6 +1,6 @@
 {
 	"manifestVersion": 2,
-	"platformVersion": 49,
+	"platformVersion": 50,
 	"changeLog": [{
 		"version": 1,
 		"release_name": "",
@@ -887,6 +887,22 @@
 			"hunspell: removed from meta-webos-ports using the one from meta-openembedded instead.",
 			"libhybris: Bump SRCREV, together with fixes for issues.",
 			"Add qtubuntu-camera as backend."
+		]
+	}, {
+		"version": 50,
+		"release_name": "ColdBrew",
+		"unsupported_devices": [],
+		"changes": [
+			"qtubuntu-camera: add missing dependencies for Qt.",
+			"packagegroup-luneos-extended: put the camera recipes in LIBHYBRIS_RDEPENDS.",
+			"mobile-broadband-provider-info: Add LIC_FILES_CHKSUM.",
+			"qtbase_git.bbappend: Use += for PACKAGECONFIG_DISTRO.",
+			"hunspell: remove - it is in meta-oe.",
+			"mesa: do not move around libGLESv2.so.",
+			"qtvideo-node: Use webOS-ports repository.",
+			"meta-webos-ports: Add org.webosports.app.camera and the camera infrastructure packages.",
+			"org.webosports.app.testr: Adds test of HTML5 camera API (navigator.mediaDevices); Removes erroneous component from HTML5 camera test; Camera test works correctly with portrait video; HTML5 camera test: adds list of user media devices & requests rear camera",
+			"org.webosports.app.camera: Initial app writen from scratch in QT."
 		]
 	}]
 }
