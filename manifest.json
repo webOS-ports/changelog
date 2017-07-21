@@ -1,6 +1,6 @@
 {
 	"manifestVersion": 2,
-	"platformVersion": 50,
+	"platformVersion": 51,
 	"changeLog": [{
 		"version": 1,
 		"release_name": "",
@@ -903,6 +903,34 @@
 			"meta-webos-ports: Add org.webosports.app.camera and the camera infrastructure packages.",
 			"org.webosports.app.testr: Adds test of HTML5 camera API (navigator.mediaDevices); Removes erroneous component from HTML5 camera test; Camera test works correctly with portrait video; HTML5 camera test: adds list of user media devices & requests rear camera",
 			"org.webosports.app.camera: Initial app writen from scratch in QT."
+		]
+	}, {
+		"version": 51,
+		"release_name": "cortado",
+		"unsupported_devices": [],
+		"changes": [
+			"meta-smartphone: linux-lg-hammerhead: fix some minor defconfig values",
+			"meta-smartphone: android-system: only start after main partitions are mounted",
+			"meta-smartphone: android-system-image: make \"symbols\" directory optional",
+			"meta-smartphone: android-headers-tenderloin: use API 22, patched to match tenderloin specific content",
+			"meta-smartphone: linux-hp-tenderloin: use a 3.4 kernel",
+			"meta-smartphone: android-system-image-tenderloin: use a Halium 5.1 based Android build",
+			"meta-smartphone: android-system-image-tenderloin: Fix checksums",
+			"meta-smartphone: linux-hp-tenderloin: bump SRCREV",
+			"meta-smartphone: android-system-image-tenderloin: update Android image",
+			"pulseaudio-modules-droid: migrate to PulseAudio 10.0",
+			"systemd: Disable ProtectHome and ProtectSystem for old kernels",
+			"ofono: Use Mer's 1.19 and include fix",
+			"libhybris: test_hwcomposer: add support for newer hwcomposer versions",
+			"pulseaudio-modules-droid: match build flag for audio.h header",
+			"libhybris: bump SRCREV and remove unneeded patches",
+			"pulseaudio-modules-droid: define QCOM_HARDWARE",
+			"pulseaudio-distro-conf: for tenderloin, avoid loading the alsa module",
+			"purple-skypeweb: Update to 1.4 release",
+			"yocto: Update from Krogoth to Pyro Release",
+			"bitbake: Update from 1.30 to 1.34",
+			"preware: Fix Panel behavior in landscape",
+			"luna-next-cardshell: Notifications: separate view and model, Initial work on tablet style statusbar, Fix NotificationAreaTablet height, StatusBar: fix tablet TweaksClock visibility"
 		]
 	}]
 }
