@@ -1077,9 +1077,12 @@
 		]
 	}, {
 		"version": 54,
-		"release_name": "EggNogLatte",
+		"release_name": "",
 		"unsupported_devices": ["grouper", "maguro"],
 		"changes": [
+			"Yocto upgrade from 2.3 Pyro to 2.7 Warrior",
+			"Qt upgrade from 5.11 to 5.12",
+			"Pinephone support added",
 			"activitymanager: RDEPENDS on bootd",
 			"add meta-qt5-compat layer",
 			"Add VIRTUAL-RUNTIME_android-initramfs-scripts variable in machines conf",
@@ -1375,5 +1378,12 @@
 			"webos-keyboard: fix LS2 for webOS-OSE; Bump SRCREV",
 			"wifi-module-load: fix sleep call in systemd service"
 		]
+	}, {
+		"version": 55,
+		"release_name": "EggNogLatte",
+		"unsupported_devices": ["grouper", "maguro"],
+		"changes": [
+			"Qt upgrade from 5.12.3 to 5.12.5"
+		}
 	}]
 }
