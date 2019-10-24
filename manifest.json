@@ -1384,6 +1384,6 @@
 		"unsupported_devices": ["grouper", "maguro"],
 		"changes": [
 			"Qt upgrade from 5.12.3 to 5.12.5"
-		}
+		]
 	}]
 }
