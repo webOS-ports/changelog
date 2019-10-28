@@ -1,6 +1,6 @@
 {
 	"manifestVersion": 2,
-	"platformVersion": 55,
+	"platformVersion": 56,
 	"changeLog": [{
 		"version": 1,
 		"release_name": "",
@@ -1380,10 +1380,18 @@
 		]
 	}, {
 		"version": 55,
-		"release_name": "EggNogLatte",
+		"release_name": "",
 		"unsupported_devices": ["grouper", "maguro"],
 		"changes": [
 			"Qt upgrade from 5.12.3 to 5.12.5"
+		]
+	}, {
+		"version": 56,
+		"release_name": "EggNogLatte",
+		"unsupported_devices": ["grouper", "maguro"],
+		"changes": [
+			"luna-applauncher: JustType: use a relative margin for main field (got broken after Qt 5.12.5 upgrade)",
+			"luneos-components: Update Qt version to 5.12.5; Add stub for ieee8021x wifi network"
 		]
 	}]
 }
