@@ -1,6 +1,6 @@
 {
 	"manifestVersion": 2,
-	"platformVersion": 56,
+	"platformVersion": 57,
 	"changeLog": [{
 		"version": 1,
 		"release_name": "",
@@ -1387,6 +1387,13 @@
 		]
 	}, {
 		"version": 56,
+		"release_name": "",
+		"unsupported_devices": ["grouper", "maguro"],
+		"changes": [
+			"Empty by accident"
+		]
+	}, {
+		"version": 57,
 		"release_name": "EggNogLatte",
 		"unsupported_devices": ["grouper", "maguro"],
 		"changes": [
